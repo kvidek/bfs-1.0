@@ -1,0 +1,28 @@
+<section class="o-section c-work-single c-work-single--@@layout" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    @@if(context.workLeftImagejpegDesktop){
+
+                    @@include('work/image.html', { "alt": "@@workLeftImageAlt", "ar": "@@workLeftImageAr", "jpegDesktop": "@@workLeftImagejpegDesktop",
+                    "jpegMobile": "@@workLeftImagejpegMobile", "webpDesktop": "@@workLeftImagewebpDesktop", "webpMobile": "@@workLeftImagewebpMobile",
+                    })
+
+                    }
+                </div>
+            </div>
+            @@if (context.workRightImagejpegDesktop){
+            <div class="c-work-single__project c-work-single__project--right">
+                <div class="c-work-single__project-media">
+
+                    @@include('work/image.html', { "alt": "@@workRightImageAlt", "ar": "@@workRightImageAr", "jpegDesktop": "@@workRightImagejpegDesktop",
+                    "jpegMobile": "@@workRightImagejpegMobile", "webpDesktop": "@@workRightImagewebpDesktop", "webpMobile": "@@workRightImagewebpMobile",
+                    })
+
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>

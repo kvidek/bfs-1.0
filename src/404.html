@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html id="bornfight-studio" lang="en" class="has-gravity" data-init-body-text-color="#000000" data-init-body-bg-color="#ffffff">
+    <head>
+        @@include('head.html', {
+        "ogSiteName": "Bornfight Studio - Web Production & Digital Branding",
+        "ogURL": "https://bornfight.studio/",
+        "ogTitle": "Bornfight Studio - Web Production & Digital Branding",
+        "ogShareImage": "static/images/share.jpg",
+        "title": "Bornfight Studio - Web Production & Digital Branding",
+        "description": "A close-packed team of Bornfight’s specialists focused on design and development.",
+        "author": "Bornfight Studio",
+        "style": "static/dist/style.css",
+        "faviconPath": "favicon",
+        })
+    </head>
+
+    <body class="has-gravity">
+
+        @@include('loader.html', {
+        "staticPath": "static",
+        })
+
+        <!-- PAGE -->
+        <div id="bfs" class="o-page o-page--404">
+            <div class="o-page__inner">
+                <a href="/" class="u-a1 u-uppercase u-underline go-back"> GO BACK HOME </a>
+
+                <h1 class="u-a4">
+                    <span class="box2d"> 4 </span>
+                    <span class="box2d"> 0 </span>
+                    <span class="box2d"> 4 </span>
+                </h1>
+
+                <h5 class="u-a2">
+                    <span class="box2d">I</span>
+                    <span class="box2d">think</span>
+                    <span class="box2d">we</span>
+                    <span class="box2d">need</span>
+                    <span class="box2d">a</span>
+                    <span class="box2d">break</span>
+                </h5>
+
+                @@include('sticky-layout.html') @@include('marquee.html') @@include('cursor.html')
+            </div>
+            <!-- //PAGE -->
+            @@include('cookie.html')
+        </div>
+
+        <script type="text/javascript" defer>
+            var appHeight = () => {
+                var doc = document.documentElement;
+                doc.style.setProperty("--app-height", `${window.innerHeight}px`);
+            };
+
+            window.addEventListener("resize", appHeight);
+            appHeight();
+        </script>
+
+        <script type="text/javascript" defer src="static/js/box-2d.js"></script>
+        <script type="text/javascript" defer src="static/js/gravity.js"></script>
+        <script type="text/javascript" defer src="static/dist/vendor.js"></script>
+        <script type="text/javascript" defer src="static/dist/bundle.js"></script>
+    </body>
+</html>

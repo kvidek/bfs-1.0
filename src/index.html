@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html id="bornfight-studio" lang="en" class="" data-init-body-text-color="#000000" data-init-body-bg-color="#ffffff">
+<head>
+    @@include('head.html', {
+    "ogSiteName": "Bornfight Studio - Web Production & Digital Branding",
+    "ogURL": "https://bornfight.studio/",
+    "ogTitle": "Bornfight Studio - Web Production & Digital Branding",
+    "ogShareImage": "static/images/share.jpg",
+    "title": "Bornfight Studio - Web Production & Digital Branding",
+    "description": "A close-packed team of Bornfight’s specialists focused on design and development.",
+    "author": "Bornfight Studio",
+    "style": "static/dist/style.css",
+    "faviconPath": "favicon",
+    })
+</head>
+
+<body>
+@@include('loader.html', {
+"staticPath": "static",
+})
+
+<div class="o-scroll o-page o-page--landing is-landing" id="js-scroll" data-scroll-container>
+    @@include('header.html')
+    @@loop('work-section.html', "./work-sections.json")
+    <section class="o-section" data-scroll-section>
+        <div class="c-concepts">
+            <div class="c-concepts__wrapper">
+                <div class="o-container">
+                    <div class="c-concepts__inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+                        @@include('video.html', { "desktopPoster":
+                        "static/videos/concepts/concepts_exploration_desktop_cover.jpeg",
+                        "mobilePoster": "static/videos/concepts/concepts_exploration_mobile_cover.jpeg", "desktop":
+                        "static/videos/concepts/concepts_exploration_desktop.mp4", "mobile":
+                        "static/videos/concepts/concepts_exploration_mobile.mp4", })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('image-trail.html', {"isWorkSingle": "false", })
+    @@include('footer.html')
+</div>
+
+@@include('sticky-layout.html')
+@@include('cursor.html')
+@@include('marquee.html')
+
+<script type="text/javascript" defer src="static/js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" defer src="static/dist/vendor.js"></script>
+<script type="text/javascript" defer src="static/dist/bundle.js"></script>
+<script type="text/javascript" defer src="static/js/vendor/quicklink.js"></script>
+<script defer type="text/javascript">
+    let msg = "%cHello fellow INSPECTOR 👋! Welcome!";
+    let styles = [
+        "font-size: 16px",
+        "font-weight: bold",
+        "font-family: monospace",
+        "background: black",
+        "color: white",
+        "display: inline-block",
+        "padding: 10px 25px",
+        "border: 1px dashed white;",
+    ].join(";");
+    console.log(msg, styles);
+</script>
+</body>
+</html>

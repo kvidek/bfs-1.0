@@ -1,0 +1,126 @@
+.c-header-wrapper {
+    pointer-events: none;
+    position: relative;
+    mix-blend-mode: difference;
+    color: $white-100;
+    opacity: 1 !important;
+    transform: none !important;
+
+    &.is-on-bottom {
+        z-index: 997;
+    }
+}
+
+.c-header {
+    &__spacer {
+        height: 50vh;
+        display: block;
+        width: 100%;
+
+        @include mq(md) {
+            height: 0;
+        }
+    }
+
+    &__inner {
+        @include fluidValue("padding-bottom", null, 30px);
+        height: 50vh;
+        padding-right: percentage(0.25, 24);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: flex-end;
+        transform: rotate(-2.5deg);
+
+        @include mq(md) {
+            //@include fluidValue("padding-left", "s-80");
+            padding-right: 30px;
+            padding-bottom: 0;
+            //transform: rotate(0deg);
+            height: 85vh;
+            max-height: -webkit-fill-available;
+        }
+
+        @include mq(sm) {
+            //padding-bottom: 0;
+        }
+
+        @media not all and (hover: hover) {
+            //height: var(--app-height);
+        }
+    }
+
+    &__top {
+        text-align: right;
+        padding-right: get-vw(460px);
+
+        @include mq(md) {
+            padding-right: 0;
+        }
+
+        span {
+            display: block;
+        }
+    }
+
+    &__bottom {
+        align-self: flex-end;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        padding-right: 15%;
+
+        span {
+            display: block;
+        }
+
+        @include mq(md) {
+            display: none;
+            padding-right: 0;
+            position: relative;
+            justify-content: flex-end;
+        }
+    }
+
+    h1 {
+        width: get-vw(1080px);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        @include mq(md) {
+            opacity: 1 !important;
+            visibility: visible !important;
+            width: 100%;
+            padding-left: 10px;
+            transform: none !important;
+        }
+
+        @include mq(sm) {
+            padding-left: 20px;
+            transform: translateY(40%);
+        }
+    }
+
+    .w50 {
+        flex: 0 0 auto;
+
+        @include mq(sm) {
+            padding-left: 10px;
+        }
+    }
+
+    .w100 {
+        flex: 1 0 100%;
+        text-align: right;
+
+        @include mq(md) {
+            //text-align: left;
+        }
+    }
+}

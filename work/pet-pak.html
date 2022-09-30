@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html id="bornfight-studio" lang="en" class="" data-init-body-text-color="#000000" data-init-body-bg-color="#ffffff">
+<head>
+    <meta charset="utf-8" />
+<title>Bornfight Studio | Pet-Pak</title>
+<meta name="description" content="A close-packed team of Bornfight’s specialists focused on design and development." />
+<meta name="author" content="Bornfight Studio" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Bornfight Studio" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://bornfight.studio/" />
+<meta property="og:title" content="Bornfight Studio | Pet-Pak" />
+<meta property="og:image" content="https://bornfight.studio/../static/images/share.jpg" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png" />
+<link rel="manifest" href="../favicon/site.webmanifest" />
+<link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5" />
+<meta name="msapplication-TileColor" content="#da532c" />
+<meta name="theme-color" content="#ffffff" />
+
+<style id="critical-css">
+    .c-loader-wrapper {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: fixed;
+        z-index: 999;
+        pointer-events: none;
+    }
+
+    .c-loader {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 100%;
+        background-color: #121212;
+    }
+
+    .c-loader__inner {
+        position: relative;
+        width: 50%;
+        max-width: 720px;
+        -webkit-transform: skewY(2.5deg);
+        transform: skewY(2.5deg);
+    }
+
+    @media (min-width: 1440px) {
+        .c-loader__inner {
+            max-width: 50vw;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .c-loader__inner {
+            width: 100%;
+            max-width: 280px;
+        }
+    }
+
+    .c-loader__item {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .c-loader__item--alt {
+        z-index: 0;
+        width: 38%;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .c-loader__item--alt img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+    }
+
+    .c-loader__clipper {
+        position: relative;
+        height: 120%;
+        top: -10%;
+        overflow: hidden;
+        -webkit-transform: skewY(-2.5deg);
+        transform: skewY(-2.5deg);
+    }
+
+    .c-loader .letters {
+        display: block;
+        width: 100%;
+    }
+
+    .c-loader .letter-alt {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
+<link rel="stylesheet" href="../static/dist/style.css" />
+
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-NPWNLGX");
+</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPWNLGX"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="c-loader-wrapper js-loader-wrapper">
+    <div class="c-loader__clipper js-loader-clipper">
+        <div class="c-loader js-loader">
+            <div class="c-loader__inner js-loader-logo">
+                <div class="c-loader__item">
+                    <svg class="letters" viewBox="0 0 1880 249" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0 200.039H44.6279C60.9914 200.039 74.8048 198.347 86.4931 192.213C98.3939 185.656 106.044 174.869 106.044 156.89C106.044 133.624 90.3183 124.317 76.5049 120.299C86.7056 116.28 99.4564 107.185 99.4564 85.822C99.4564 69.9585 92.8685 60.4404 80.3302 54.7296C70.9796 50.4993 59.2913 48.8072 43.3528 48.8072H0V200.039ZM17.8512 129.817H47.6031C70.5546 129.817 86.0681 136.585 86.0681 157.102C86.0681 166.408 82.8804 173.388 77.1425 177.83C70.9796 182.695 62.054 184.598 52.4909 184.598H17.8512V129.817ZM17.8512 64.0362H38.465C50.1532 64.0362 59.5038 64.6707 66.9418 67.8434C74.5923 71.2276 79.2676 77.1499 79.2676 88.7831C79.2676 108.031 67.7919 114.588 45.4779 114.588H17.8512V64.0362Z"
+                            fill="#FFFFFF"
+                        />
+                        <path
+                            d="M189.981 45.8461C144.715 45.8461 113.901 77.996 113.901 124.529C113.901 171.062 144.503 203 190.193 203C236.309 203 266.273 171.062 266.273 124.529C266.273 77.7845 235.246 45.8461 189.981 45.8461ZM189.768 60.8635C225.258 60.8635 246.297 86.245 246.297 124.317C246.297 161.755 224.833 187.983 189.981 187.983C154.278 187.983 133.239 161.544 133.239 124.317C133.239 86.8795 154.278 60.8635 189.768 60.8635Z"
+                            fill="#FFFFFF"
+                        />
+                        <path
+                            d="M276.809 200.039H294.873V136.373H319.312L356.714 200.039H378.603C366.065 179.522 350.127 154.141 338.226 133.835C358.415 130.451 376.903 117.972 376.903 91.7443C376.903 76.5154 371.165 64.6707 359.477 57.2677C349.064 49.8648 335.251 48.8072 319.95 48.8072H276.809V200.039ZM294.873 64.0362H319.737C329.725 64.0362 337.588 65.5167 343.326 68.2664C352.464 72.4967 357.352 80.1111 357.352 92.5904C357.352 103.378 353.527 110.357 346.514 115.222C340.351 119.452 331.425 121.568 319.737 121.568H294.873V64.0362Z"
+                            fill="#FFFFFF"
+                        />
+                        <path
+                            d="M508.712 200.039V48.8072H491.074V136.162C491.074 150.756 491.711 171.908 491.711 180.368H491.286L470.46 142.084L418.819 48.8072H391.405V200.039H409.468V125.586C409.468 112.261 409.256 76.5154 409.256 68.2664H409.681C412.019 73.9773 423.494 93.6479 431.995 109.511L482.573 200.039H508.712Z"
+                            fill="#FFFFFF"
+                        />
+                        <path d="M539.139 200.039V130.24H607.78V114.588H539.139V64.4592H612.881V48.8072H521.075V200.039H539.139Z" fill="#FFFFFF" />
+                        <path d="M625.32 200.039H643.384V48.8072H625.32V200.039Z" fill="#FFFFFF" />
+                        <path
+                            d="M724.315 122.202V137.854H784.668C783.606 161.332 767.88 187.771 730.903 187.771C696.688 187.771 674.799 163.024 674.799 124.106C674.799 84.3414 697.325 61.075 731.328 61.075C762.992 61.075 774.893 77.996 782.331 93.8594H800.394C791.894 66.7858 770.005 45.8461 731.54 45.8461C685 45.8461 655.248 79.2651 655.248 124.529C655.248 172.542 686.487 203 728.777 203C760.229 203 777.656 186.502 783.818 175.503L783.606 188.194V200.039H800.394V122.202H724.315Z"
+                            fill="#FFFFFF"
+                        />
+                        <path
+                            d="M814.121 200.039H832.185V130.24H905.927V200.039H923.991V48.8072H905.927V114.799H832.185V48.8072H814.121V200.039Z"
+                            fill="#FFFFFF"
+                        />
+                        <path d="M978.549 200.039H996.613V64.4592H1039.12V48.8072H936.046V64.4592H978.549V200.039Z" fill="#FFFFFF" />
+                        <path
+                            class="letter-initial js-letter-initial"
+                            d="M1091.46 157.102C1094.86 186.714 1116.11 203 1147.99 203C1180.51 203 1202.61 186.714 1202.61 158.582C1202.61 133.624 1183.48 123.894 1158.62 116.068L1148.2 112.473C1128.01 105.704 1115.69 99.5703 1115.69 83.4953C1115.69 68.9009 1127.59 60.0174 1147.35 60.0174C1167.12 60.0174 1178.59 69.324 1181.99 87.9371H1199.63C1196.87 60.6519 1178.8 45.8461 1147.99 45.8461C1116.33 45.8461 1096.99 61.7095 1096.99 85.3989C1096.99 108.665 1112.93 119.452 1139.28 127.913L1148.42 130.874C1167.33 137.22 1183.69 142.719 1183.69 160.909C1183.69 177.83 1170.52 188.617 1148.42 188.617C1125.46 188.617 1112.71 177.195 1109.53 157.102H1091.46Z"
+                            fill="#FFFFFF"
+                        />
+                        <path
+                            class="letter-initial js-letter-initial"
+                            d="M1251.09 200.039H1269.15V64.4592H1311.65V48.8072H1208.58V64.4592H1251.09V200.039Z"
+                            fill="#FFFFFF"
+                        />
+                        <path
+                            class="letter-initial js-letter-initial"
+                            d="M1381.52 203C1400.22 203 1417.86 196.02 1427 183.541C1434.65 172.754 1436.78 160.274 1436.78 142.719V48.8072H1418.71V141.238C1418.71 154.564 1418.07 163.236 1413.82 171.485C1408.51 182.272 1396.61 188.406 1381.52 188.406C1366.86 188.406 1355.17 182.272 1349.43 171.485C1345.18 163.236 1344.54 154.564 1344.54 141.238V48.8072H1326.48V142.719C1326.48 160.274 1328.61 172.754 1336.26 183.541C1345.39 196.02 1362.61 203 1381.52 203Z"
+                            fill="#FFFFFF"
+                        />
+                        <path
+                            class="letter-initial js-letter-initial"
+                            d="M1450.53 200.039H1492.4C1519.6 200.039 1534.69 194.116 1547.44 184.175C1564.65 170.639 1573.15 149.487 1573.15 124.74C1573.15 91.5328 1559.34 68.6894 1534.47 57.0562C1522.79 51.7684 1510.25 48.8072 1489.21 48.8072H1450.53V200.039ZM1468.6 64.2477C1475.61 64.0362 1482.62 64.0362 1490.06 64.0362C1530.65 64.0362 1553.18 84.7644 1553.18 124.529C1553.18 168.946 1529.59 184.598 1487.72 184.598H1468.6V64.2477Z"
+                            fill="#FFFFFF"
+                        />
+                        <path class="letter-initial js-letter-initial" d="M1588.16 200.039H1606.23V48.8072H1588.16V200.039Z" fill="#FFFFFF" />
+                        <path
+                            class="letter-initial js-letter-initial"
+                            d="M1695.41 45.8461C1650.15 45.8461 1619.33 77.996 1619.33 124.529C1619.33 171.062 1649.94 203 1695.63 203C1741.74 203 1771.71 171.062 1771.71 124.529C1771.71 77.7845 1740.68 45.8461 1695.41 45.8461ZM1695.2 60.8635C1730.69 60.8635 1751.73 86.245 1751.73 124.317C1751.73 161.755 1730.27 187.983 1695.41 187.983C1659.71 187.983 1638.67 161.544 1638.67 124.317C1638.67 86.8795 1659.71 60.8635 1695.2 60.8635Z"
+                            fill="#FFFFFF"
+                        />
+                        <path
+                            d="M1813.06 122.414H1821.35V99.9933H1828.78L1841.96 122.414H1852.16L1837.71 98.7242C1845.15 97.2436 1850.67 93.0134 1850.67 83.0723C1850.67 77.1499 1848.55 72.7082 1844.09 69.747C1840.68 67.4203 1835.8 66.7858 1829.21 66.7858H1813.06V122.414ZM1821.35 74.1888H1829.42C1833.03 74.1888 1835.8 74.6118 1837.71 75.6694C1840.47 77.1499 1841.96 79.6881 1841.96 83.2838C1841.96 86.245 1840.9 88.5716 1838.77 90.2637C1836.65 91.7443 1833.46 92.5904 1829.42 92.5904H1821.35V74.1888ZM1880 94.2825C1880 67.2088 1857.69 45 1830.48 45C1802.43 45 1780.76 67.2088 1780.76 94.2825C1780.76 121.779 1803.07 143.776 1830.27 143.776C1857.9 143.776 1880 121.779 1880 94.2825ZM1871.29 94.2825C1871.29 117.126 1852.8 135.527 1830.27 135.527C1807.53 135.527 1789.68 117.126 1789.68 94.2825C1789.68 71.6506 1807.53 53.249 1830.48 53.249C1852.8 53.249 1871.29 71.6506 1871.29 94.2825Z"
+                            fill="#FFFFFF"
+                        />
+                    </svg>
+                </div>
+                <div class="c-loader__item c-loader__item--alt">
+                    <img src="../static/images/brush-1.png" alt="" loading="lazy" />
+                    <svg viewBox="0 0 299 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            class="letter-alt js-letter-alt letter-alt--1"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M90.4271 49.2465C88.3172 47.4657 84.9428 46.7289 81.6104 46.4092C74.7296 45.7457 65.7057 46.711 59.8945 47.6166C54.0833 48.5223 43.5536 50.2145 36.0113 49.933C34.4284 49.9007 32.8528 49.7088 31.3085 49.3603C30.4612 49.2278 29.6637 48.8745 28.9962 48.3362C28.8296 48.1628 28.7076 47.976 28.8286 47.4156C29.2539 46.1059 29.9725 44.9106 30.9297 43.9207C37.8587 35.8705 45.7342 28.6863 54.3853 22.524C63.5002 15.9953 73.0247 10.9647 81.0642 9.28693C81.9425 9.07871 82.8405 8.96462 83.743 8.94661C83.3964 9.66413 82.9767 10.3439 82.4904 10.9752C79.721 14.7051 74.1719 19.765 69.799 23.3433C69.3646 23.7314 69.0966 24.2721 69.0509 24.8529C69.0053 25.4336 69.1854 26.0096 69.5538 26.4608C69.9222 26.912 70.4505 27.2037 71.0286 27.2752C71.6068 27.3466 72.1902 27.1922 72.6573 26.8441C77.0179 23.2437 82.9944 17.8808 86.1149 13.6703C86.8758 12.6918 87.5141 11.624 88.0156 10.4905C88.2903 9.91054 88.4454 9.28124 88.4719 8.64007C88.4983 7.9989 88.3955 7.35896 88.1695 6.75835C87.8477 6.11622 87.3635 5.56946 86.7649 5.17238C86.1664 4.77531 85.4744 4.54175 84.7577 4.49489C83.2102 4.37378 81.6534 4.49621 80.1439 4.85772C71.173 6.71491 61.0682 12.1689 51.7564 18.8426C42.8198 25.2311 34.6865 32.6744 27.533 41.0112C26.0909 42.5729 25.0383 44.4532 24.4608 46.4988C24.2476 47.3793 24.2611 48.2995 24.5 49.1733C24.7388 50.0472 25.1952 50.8463 25.8265 51.496C27.0564 52.6598 28.5881 53.4551 30.2475 53.7915C32.1161 54.2231 34.0243 54.4602 35.9416 54.4991C44.0058 54.8015 55.0068 53.0193 60.7394 52.1286C66.4721 51.2379 75.0117 50.3293 81.3133 50.9519C84.566 51.2641 86.6919 51.9346 87.6584 52.7499C87.8046 52.8502 87.9275 52.9808 88.0186 53.1328C88.1097 53.2849 88.167 53.4548 88.1865 53.631C88.1641 54.3918 87.9235 55.1301 87.4933 55.758C86.4079 57.3036 85.0558 58.6435 83.5004 59.7149C80.8899 61.6806 78.1655 63.4903 75.3414 65.1345C68.682 68.9669 60.3766 73.1933 51.8025 77.2398C43.2283 81.2862 34.3979 84.9371 26.8807 87.8585C21.3853 90.126 15.7376 92.0055 9.97932 93.483L9.68558 93.4967C10.0473 92.4867 10.5184 91.5194 11.0906 90.6119C12.0682 89.0198 13.1301 87.4811 14.2717 86.0023C20.072 78.5424 26.3231 71.4443 32.9901 64.7477C33.2093 64.5382 33.3841 64.2868 33.5043 64.0084C33.6244 63.7301 33.6873 63.4304 33.6893 63.1272C33.6913 62.824 33.6324 62.5235 33.5159 62.2435C33.3995 61.9636 33.2279 61.7099 33.0115 61.4976C32.7951 61.2853 32.5382 61.1186 32.2561 61.0075C31.9739 60.8965 31.6724 60.8432 31.3693 60.851C31.0662 60.8588 30.7678 60.9275 30.4917 61.0529C30.2157 61.1783 29.9677 61.358 29.7625 61.5811C22.9327 68.4359 16.5306 75.7038 10.5923 83.3437C9.28249 85.1146 8.11845 86.856 7.20264 88.3367C6.36104 89.6757 5.69771 91.1188 5.22943 92.6294C4.95011 93.3889 4.88851 94.2112 5.05159 95.0038C5.21466 95.7964 5.59593 96.5276 6.15238 97.1151C6.81275 97.6064 7.5792 97.9358 8.39007 98.0768C9.20095 98.2179 10.0336 98.1666 10.8211 97.9272C16.8397 96.3992 22.7416 94.4434 28.4817 92.0748C36.0877 89.1152 45.0027 85.3359 53.6565 81.297C62.3102 77.2581 70.7932 72.9555 77.514 68.9844C80.5191 67.2481 83.4164 65.3319 86.1903 63.2462C88.2205 61.8165 89.9678 60.0227 91.3436 57.9556C92.2114 56.5243 92.6198 54.8614 92.5136 53.191C92.4483 52.4271 92.23 51.6842 91.8715 51.0065C91.513 50.3289 91.0218 49.7303 90.4271 49.2465Z"
+                        />
+                        <path
+                            class="letter-alt js-letter-alt letter-alt--2"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M110.055 13.9634C109.948 14.045 109.84 14.1271 109.731 14.2097C107.06 16.233 103.692 18.5883 100.156 20.9712C98.4977 22.0891 96.7981 23.2161 95.1107 24.3214C99.0291 23.1707 103.273 21.9972 107.595 20.8481C108.545 18.2349 109.375 15.9151 110.055 13.9634ZM112.294 19.6154C113.487 16.2979 114.443 13.5558 115.079 11.599C115.496 10.3164 115.807 9.27601 115.94 8.62722C115.974 8.46279 116.01 8.25735 116.025 8.04862C116.032 7.94674 116.038 7.78299 116.017 7.59243C116.002 7.45765 115.946 7.0163 115.626 6.57892C115.442 6.32734 115.155 6.05854 114.746 5.89336C114.336 5.72795 113.941 5.72222 113.631 5.77695C113.092 5.872 112.745 6.15675 112.64 6.24484C112.383 6.46123 112.205 6.71283 112.127 6.82651C111.927 7.11589 111.432 7.64526 110.551 8.41962C109.705 9.1631 108.609 10.0411 107.315 11.0214C104.73 12.9803 101.43 15.2888 97.9205 17.6544C90.9595 22.3464 83.253 27.209 78.8453 29.909C77.9068 30.3406 77.0758 30.775 76.4111 31.2097C75.799 31.6101 75.3638 31.9029 75.1367 32.0726L75.1364 32.0729C75.0924 32.1058 74.9779 32.1914 74.867 32.2973C74.8344 32.3284 74.7766 32.3853 74.712 32.4616L74.7112 32.4627C74.67 32.5114 74.5115 32.6987 74.3916 32.9825C74.3113 33.1729 73.897 34.3091 74.8623 35.2193C75.2426 35.5778 75.6566 35.6924 75.8789 35.7327C76.1105 35.7748 76.2996 35.7667 76.4015 35.7584C76.7194 35.7325 76.968 35.6301 76.9856 35.6228L76.9865 35.6225C77.0605 35.5937 77.1226 35.5651 77.1602 35.5474C77.239 35.51 77.3191 35.4682 77.3876 35.4314C77.8951 35.1589 79.0992 34.4425 80.7255 33.448C85.588 31.2544 95.1943 28.3408 105.915 25.4401C101.216 38.2058 94.5947 55.6513 88.7029 71.1748C88.2759 72.2998 87.8528 73.4146 87.4345 74.5169C84.0583 83.4137 80.9973 91.4894 78.7865 97.4122C77.6816 100.372 76.7858 102.803 76.1682 104.533C75.8602 105.396 75.6165 106.098 75.4495 106.61C75.367 106.863 75.2963 107.09 75.245 107.276C75.22 107.366 75.1925 107.473 75.1705 107.58L75.1693 107.586C75.1588 107.635 75.0973 107.921 75.1262 108.25C75.1676 108.72 75.4148 109.59 76.3463 110.03C77.0947 110.384 77.7801 110.193 78.0089 110.119C78.5354 109.951 79.0119 109.609 79.3101 109.382C80.0069 108.851 80.8827 108.029 81.77 107.143C83.5742 105.342 85.7007 102.997 87.1059 101.391C87.8332 100.559 87.749 99.2959 86.9178 98.5685C86.0865 97.8411 84.823 97.9254 84.0956 98.7566C83.3622 99.5948 82.435 100.63 81.4695 101.674C81.7968 100.79 82.1524 99.833 82.5339 98.811C84.7402 92.9004 87.7971 84.8354 91.1743 75.9361C91.5938 74.8306 92.0182 73.7124 92.4466 72.5837C98.7503 55.9748 105.902 37.131 110.637 24.1813C122.033 21.1871 133.887 18.3653 141.891 16.5596C142.968 16.3165 143.644 15.2459 143.401 14.1685C143.158 13.091 142.088 12.4146 141.01 12.6577C133.595 14.3306 122.895 16.8704 112.294 19.6154ZM77.519 35.2861C77.5188 35.2862 77.522 35.2837 77.5292 35.2783C77.5228 35.2834 77.5192 35.2861 77.519 35.2861ZM115.432 9.08045C115.432 9.0809 115.427 9.08763 115.418 9.09931C115.428 9.08585 115.432 9.08001 115.432 9.08045Z"
+                        />
+                        <path
+                            class="letter-alt js-letter-alt letter-alt--3"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M132.875 16.7703C133.893 17.1976 134.372 18.3697 133.945 19.3883C133.206 21.1496 131.933 23.7508 130.405 26.8737C129.417 28.8916 128.322 31.1274 127.197 33.4952C124.287 39.615 121.077 46.795 118.611 53.9969C116.135 61.2269 114.462 68.3319 114.52 74.3359C114.577 80.3153 116.331 84.8716 120.353 87.6033C120.656 87.8089 120.929 87.8669 121.262 87.8228C121.651 87.7712 122.21 87.5626 122.952 87.0441C124.46 85.9915 126.253 83.999 128.274 81.1437C132.283 75.477 136.728 67.08 141.176 58.1396C142.893 54.6878 144.613 51.1499 146.302 47.6766C148.949 42.2319 151.519 36.946 153.88 32.3999C155.82 28.6648 157.656 25.3543 159.323 22.7947C160.157 21.5149 160.97 20.3882 161.754 19.4768C162.518 18.5894 163.351 17.7912 164.244 17.294C165.209 16.7565 166.427 17.1031 166.964 18.0681C167.501 19.0331 167.155 20.251 166.19 20.7885C165.903 20.9485 165.433 21.3346 164.786 22.0862C164.16 22.8138 163.454 23.7809 162.675 24.9775C161.116 27.3707 159.352 30.5431 157.43 34.2434C155.086 38.7564 152.565 43.9436 149.941 49.3401C148.249 52.8217 146.514 56.3904 144.757 59.9213C140.316 68.8476 135.748 77.5038 131.539 83.4539C129.45 86.407 127.333 88.8637 125.243 90.3235C124.187 91.0611 123.025 91.6243 121.787 91.7882C120.492 91.9595 119.231 91.6764 118.106 90.9122C112.588 87.1649 110.584 81.0754 110.52 74.3744C110.456 67.6979 112.297 60.0881 114.826 52.7011C117.365 45.286 120.651 37.9468 123.584 31.7777C124.784 29.2545 125.91 26.9547 126.904 24.9251C128.375 21.9216 129.556 19.5097 130.257 17.8408C130.684 16.8223 131.856 16.343 132.875 16.7703Z"
+                        />
+                        <path
+                            class="letter-alt js-letter-alt letter-alt--4"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M190.514 2.3676C191.377 3.05669 191.518 4.31512 190.829 5.17839C189.272 7.12949 187.294 9.86379 185.018 13.3333C187.671 13.1119 190.307 13.1292 192.826 13.3976C195.746 13.7088 199.446 14.2948 202.974 15.4427C206.466 16.5791 210.013 18.3373 212.392 21.1367C214.87 24.0528 215.91 27.9019 214.667 32.701C213.458 37.3702 210.106 42.9061 203.994 49.553C185.833 69.3032 164.454 85.7112 149.436 94.4587C148.889 95.6793 148.372 96.8233 147.898 97.8661C147.465 98.818 146.372 99.2757 145.39 98.9162C144.698 98.6628 144.226 98.0636 144.107 97.3795C141.284 98.8174 138.761 99.9066 136.638 100.588C134.955 101.127 133.498 101.416 132.266 101.419C131.041 101.421 129.806 101.136 128.88 100.269C127.927 99.3752 127.653 98.197 127.666 97.1742C127.679 96.1731 127.962 95.1455 128.333 94.2034C129.08 92.3067 130.381 90.2765 131.729 88.58C133.054 86.9118 134.6 85.3453 135.941 84.5256C136.883 83.9494 138.114 84.2461 138.69 85.1884C139.266 86.1308 138.97 87.3618 138.027 87.9381C137.283 88.3932 136.084 89.5283 134.861 91.0682C133.66 92.58 132.608 94.2646 132.054 95.6697C131.775 96.3785 131.67 96.8984 131.666 97.2266C131.665 97.2813 131.667 97.3241 131.67 97.3569C131.765 97.3847 131.946 97.4193 132.258 97.4187C132.916 97.4174 133.934 97.2542 135.417 96.7786C137.973 95.9589 141.371 94.3983 145.409 92.15C149.447 78.5199 154.03 66.0908 158.706 55.065C158.664 54.8761 158.621 54.6822 158.578 54.4837C157.818 51.051 156.749 46.2221 156.354 41.3691C155.918 36.0095 156.246 30.0738 159.22 25.8789C163.634 19.6536 171.636 15.7214 179.785 14.0776C182.901 9.1298 185.621 5.29172 187.703 2.68296C188.392 1.8197 189.651 1.67851 190.514 2.3676ZM176.811 18.9437C170.763 20.7746 165.485 23.9582 162.483 28.1925C160.381 31.1576 159.917 35.8328 160.341 41.0447C160.557 43.6894 160.985 46.3318 161.456 48.7587C166.789 36.8661 172.128 26.8289 176.811 18.9437ZM152.282 88.0404C154.415 83.1746 156.689 77.8582 158.614 73.1119C159.981 69.743 161.181 66.638 162.029 64.176C162.453 62.9474 162.799 61.851 163.035 60.9475C163.248 60.1305 163.445 59.2154 163.396 58.4829C163.345 57.7183 163.138 56.6449 162.886 55.4604C169.657 39.6592 176.582 26.8608 182.241 17.6976C185.702 17.1443 189.184 17.0322 192.402 17.3751C195.179 17.6711 198.576 18.2181 201.736 19.2464C204.931 20.2861 207.661 21.7471 209.344 23.7269C210.927 25.5902 211.732 28.0805 210.795 31.6983C209.825 35.4459 206.973 40.4041 201.05 46.8456C185.044 64.2515 166.506 79.0079 152.282 88.0404ZM131.582 97.3228C131.582 97.3228 131.583 97.3233 131.585 97.3246C131.583 97.3235 131.582 97.3228 131.582 97.3228ZM131.682 97.4358C131.685 97.443 131.687 97.4472 131.686 97.4475C131.686 97.4478 131.684 97.4442 131.682 97.4358Z"
+                        />
+                        <path
+                            class="letter-alt js-letter-alt letter-alt--5"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M230.283 1.63863C229.022 1.82717 228.153 3.00218 228.341 4.2631L229.103 9.35628C229.291 10.6172 230.466 11.4865 231.727 11.298C232.988 11.1095 233.858 9.93444 233.669 8.67353L232.908 3.58035C232.719 2.31943 231.544 1.45009 230.283 1.63863ZM231.939 22.8665C232.404 21.8645 231.969 20.6754 230.967 20.2105C229.965 19.7457 228.776 20.1811 228.311 21.1831C228.04 21.7668 227.309 23.2699 226.232 25.4827L226.231 25.4835C225.239 27.523 223.953 30.1652 222.463 33.2464C219.371 39.6433 215.43 47.878 211.509 56.3586C207.59 64.8354 203.683 73.5759 200.662 80.9799C199.152 84.6808 197.856 88.0674 196.889 90.931C195.936 93.7561 195.257 96.2005 195.053 97.9652C194.926 99.0624 195.712 100.055 196.809 100.182C197.906 100.309 198.899 99.5228 199.026 98.4256C199.179 97.1091 199.736 95.0047 200.679 92.2106C201.61 89.4552 202.872 86.1523 204.366 82.4907C207.352 75.1697 211.231 66.4927 215.14 58.0373C219.048 49.5858 222.978 41.3737 226.065 34.987C227.517 31.9831 228.788 29.3707 229.782 27.3283L229.785 27.3219C230.893 25.0445 231.656 23.4768 231.939 22.8665Z"
+                        />
+                        <path
+                            class="letter-alt js-letter-alt letter-alt--6"
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M255.566 7.51763C259.661 5.09672 263.738 3.55396 267.174 3.45962C273.829 3.27693 281.991 3.87484 287.955 9.81139C293.925 15.7554 297.153 26.4925 295.467 45.1699C293.734 64.3639 283.086 77.5997 272.071 86.0214C266.566 90.2308 260.942 93.2612 256.228 95.2632C251.583 97.2353 247.63 98.2899 245.485 98.3816C241.847 98.5373 233.856 98.3993 227.363 94.7224C224.059 92.8519 221.106 90.0435 219.363 85.8987C217.627 81.7706 217.172 76.5102 218.505 69.8647C219.854 63.1365 223.124 55.9334 227.232 48.9568C228.381 36.96 235.183 25.7827 243.069 17.5877C247.079 13.4214 251.425 9.96544 255.566 7.51763ZM231.142 50.2072C239.813 35.7406 252.413 21.7903 259.667 14.8227C260.463 14.0576 260.489 12.7915 259.724 11.9949C258.959 11.1983 257.692 11.1728 256.896 11.938C251.038 17.5644 241.782 27.6237 233.759 38.9307C236.451 32.0141 240.904 25.6065 245.952 20.3614C249.739 16.4261 253.805 13.2051 257.602 10.9609C261.443 8.68984 264.828 7.52554 267.284 7.45812C273.802 7.27917 280.432 7.96677 285.133 12.6462C289.826 17.3181 293.134 26.5274 291.483 44.8103C289.879 62.5764 280.05 74.8851 269.641 82.8438C264.435 86.8247 259.11 89.6936 254.664 91.5814C250.148 93.4991 246.729 94.3248 245.314 94.3853C241.833 94.5342 234.803 94.3389 229.334 91.2416C226.655 89.725 224.391 87.5361 223.05 84.348C221.702 81.1432 221.207 76.7351 222.427 70.6512C223.284 66.3759 225.024 61.7816 227.36 57.0836C227.406 57.4375 227.459 57.7916 227.516 58.1459C227.695 59.236 228.723 59.9754 229.813 59.7974C230.903 59.6193 231.642 58.5913 231.464 57.5011C231.066 55.0653 230.973 52.6272 231.142 50.2072Z"
+                        />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div id="js-scroll" data-scroll-container class="o-scroll o-page o-page--work">
+        <header class="o-header" data-scroll-section>
+    <div class="o-container">
+        <div class="c-header-single" data-scroll data-scroll-speed="1">
+            <div class="c-header-single__heading">
+                <h1 class="u-a3 u-text-right">PET PAK</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+        <section class="o-section o-section--intro" data-scroll-section>
+    <div class="o-container">
+        <div class="c-intro" data-scroll data-scroll-speed="2">
+            <div class="c-intro__inner">
+                <div class="c-intro__left">
+                    <p class="u-b0">99 bottles on the wall and PETPAK rendered them all. They reached out to us to build a site that shows their attention to detail & devotion to maximum quality.</p>
+                </div>
+
+                
+                <div class="c-intro__right">
+                    <ul>
+                        
+                        <li class="u-b1 u-uppercase">WEB DESIGN</li>
+                        
+                        <li class="u-b1 u-uppercase">Development</li>
+                        
+                        <li class="u-b1 u-uppercase">COPYRIGHTING</li>
+                        
+                        <li class="u-b1 u-uppercase">CONTENT STRATEGY</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <section class="o-section c-work-single c-work-single--full-width" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--16-9">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_1.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_1.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_1.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--full-width" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--16-9">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_2.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_2.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_2.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--half" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_3.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_3.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_3.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+            <div class="c-work-single__project c-work-single__project--right">
+                <div class="c-work-single__project-media">
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_4.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_4.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_4.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--half" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_5.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_5.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_5.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+            <div class="c-work-single__project c-work-single__project--right">
+                <div class="c-work-single__project-media">
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_6.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_6.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_6.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--half" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_7.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_7.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_7.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+            <div class="c-work-single__project c-work-single__project--right">
+                <div class="c-work-single__project-media">
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_8.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_8.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_8.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--full-width" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--16-9">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_9.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_9.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_9.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--half" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_10.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_10.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_10.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+            <div class="c-work-single__project c-work-single__project--right">
+                <div class="c-work-single__project-media">
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_11.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_11.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_11.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--half" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_12.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_12.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_12.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+            <div class="c-work-single__project c-work-single__project--right">
+                <div class="c-work-single__project-media">
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_13.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_13.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_13.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--full-width" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--16-9">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_14.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_14.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_14.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--half" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_15.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_15.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_15.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+            <div class="c-work-single__project c-work-single__project--right">
+                <div class="c-work-single__project-media">
+
+                    <div class="u-image-wrapper u-image-wrapper--1-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_16.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_16.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_16.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--full-width" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--16-9">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_17.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_17.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_17.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="o-section c-work-single c-work-single--full-width" data-scroll-section>
+    <div class="o-container">
+        <div class="c-work-single__inner u-disappear" data-scroll data-scroll-class="u-appear">
+            <div class="c-work-single__project c-work-single__project--left">
+                <div class="c-work-single__project-media">
+                    
+
+                    <div class="u-image-wrapper u-image-wrapper--16-9">
+    <div class="u-image-wrapper__inner">
+        <picture>
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_18.jpg" />
+              
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/petpak/petpak_case_mobile/petpak_mobile_18.jpg" />
+            
+            <img data-src="../static/images/work/petpak/petpak_case_desktop/petpak_desktop_18.jpg" alt="PET PAK" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+        <section class="o-section o-section--cta" data-scroll-section>
+    <div class="o-container">
+        <div class="c-cta" data-scroll>
+            <a href="mailto:hello@bornfight.studio" target="_blank" rel="noreferrer" class="c-cta__top">
+                <div class="u-image-wrapper u-image-wrapper--2-1">
+    <div class="u-image-wrapper__inner">
+        <picture>
+            
+            <source type="image/webp" media="(min-width:485px)" data-srcset="../static/images/work/last-work-single-desktop.webp" />
+             
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="../static/images/work/last-work-single-desktop.jpg" />
+             
+            <source type="image/webp" media="(min-width:200px)" data-srcset="../static/images/work/last-work-single-mobile.webp" />
+             
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="../static/images/work/last-work-single-mobile.jpg" />
+            
+            <img data-src="../static/images/work/last-work-single-desktop.jpg" alt="Get in Touch" class="js-lazy" />
+        </picture>
+    </div>
+</div>
+
+            </a>
+
+            <div class="c-cta__links-wrapper">
+                <ul class="c-cta__links u-text-center js-color-switch-trigger" data-bg-color="#121212"
+                    data-color="#E5E5E5">
+                    <li>
+                        <a href="/" class="c-button">
+                        <span class="c-button__label">
+                            Back to home
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://petpak.si/" class="c-button" target="_blank" rel="noreferrer">
+                        <span class="c-button__label">
+                            Go to website
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/work/ljubicic-tennis-academy" class="c-button js-next-project-link">
+                        <span class="c-button__label">
+                            Next case
+                        </span>
+
+                            <span class="c-button__next-img js-next-project-image">
+                            <picture>
+                                <source data-srcset="../static/images/work/ljubicic-desktop.webp" type="image/webp" />
+                                <source data-srcset="../static/images/work/ljubicic-desktop.jpg" type="image/jpeg" />
+                                <img data-src="../static/images/work/ljubicic-desktop.jpg" alt="Next work case"
+                                     class="js-lazy" />
+                            </picture>
+                        </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <section class="o-section o-section--image-trail" data-scroll-section>
+    <div class="c-image-trail__wrapper">
+        <div class="o-container">
+            <div class="c-image-trail__inner">
+                <div class="c-image-trail__content">
+                    <h3 class="u-a3 c-image-trail__heading">
+                        <span class="c-image-trail__heading-top">
+                            <span> Curated work </span>
+                            <span> and inspiration </span>
+                            </span>
+                            <span class="c-image-trail__heading-bottom">
+                            <span class="w50"> by </span>
+                            <span class="w50"> Bornfight’s </span>
+                            <span class="w100"> blue collar. </span>
+                        </span>
+                    </h3>
+                </div>
+                <div class="c-image-trail js-image-trail">
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_1.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_1.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_1.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_2.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_2.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_2.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_3.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_3.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_3.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_4.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_4.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_4.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_5.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_5.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_5.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_6.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_6.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_6.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_7.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_7.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_7.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_8.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_8.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_8.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_9.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_9.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_9.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_10.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_10.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_10.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_11.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_11.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_11.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_12.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_12.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_12.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_13.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_13.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_13.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_14.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_14.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_14.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_15.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_15.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_15.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_16.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_16.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_16.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_17.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_17.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_17.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_18.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_18.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_18.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_19.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_19.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_19.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_20.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_20.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_20.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_21.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_21.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_21.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_22.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_22.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_22.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_23.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_23.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_23.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_24.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_24.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_24.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_25.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_25.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_25.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_26.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_26.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_26.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_27.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_27.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_27.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_28.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_28.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_28.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_29.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_29.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_29.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_30.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_30.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_30.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_31.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_31.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_31.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_32.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_32.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_32.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_33.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_33.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_33.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_34.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_34.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_34.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_35.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_35.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_35.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_36.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_36.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_36.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_37.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_37.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_37.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_38.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_38.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_38.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_39.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_39.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_39.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_40.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_40.jpeg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_40.jpeg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_41.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_41.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_41.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_42.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_42.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_42.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_43.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_43.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_43.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_44.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_44.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_44.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_45.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_45.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_45.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_46.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_46.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_46.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_47.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_47.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_47.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_48.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_48.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_48.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_49.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_49.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_49.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_50.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_50.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_50.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_51.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_51.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_51.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_52.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_52.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_52.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_53.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_53.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_53.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_54.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_54.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_54.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_55.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_55.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_55.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                    <picture class="c-image-trail__img js-image-trail-img">
+    
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_56.webp" type="image/webp" />
+    <source srcset="../static/images/image-trail/bornfight_studio_culture_56.jpg" type="image/jpeg" />
+    <img src="../static/images/image-trail/bornfight_studio_culture_56.jpg" alt="Studio culture image" />
+     
+</picture>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="o-section o-section--footer" data-scroll-section>
+    <div class="o-container">
+        <div class="c-image-trail__bottom">
+            <ul class="c-services u-b1 u-uppercase">
+                <li>
+                    Web Production
+                </li>
+                <li>
+                    Digital Branding
+                </li>
+                <li>
+                    Content Strategy
+                </li>
+            </ul>
+            <div class="c-copy u-b2">
+                <a href="https://www.bornfight.com/privacy-policy/" rel="noreferrer" target="_blank"
+                   class="js-color-switch-trigger" data-bg-color="#121212" data-color="#E5E5E5">
+                    Privacy policy
+                </a>
+                <p>
+                    © 2022, Bornfight Studio
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <footer class="c-footer" data-scroll-section>
+
+</footer>
+
+<div class="c-cookie js-cookie u-b2 box2d">
+    <div class="c-cookie__inner">
+        <p>We use the same cookies as <a href="https://www.bornfight.com/" target="_blank" rel="noopener">Bornfight.com</a></p>
+
+        <button class="js-cookie-close u-uppercase">OK</button>
+    </div>
+</div>
+
+
+<script type="text/javascript" defer>
+    window.addEventListener("load", () => {
+        quicklink.listen();
+    });
+
+    var appHeight = () => {
+        var doc = document.documentElement;
+        doc.style.setProperty("--app-height", `${window.innerHeight}px`);
+    };
+
+    window.addEventListener("resize", appHeight);
+    appHeight();
+</script>
+
+    </div>
+
+    <div class="c-sticky-layout__back box2d js-color-switch-trigger" data-bg-color="#121212" data-color="#E5E5E5">
+    <a href="/" class="u-b0 u-uppercase">
+        Back to homepage
+    </a>
+</div>
+
+<a href="/" class="c-sticky-layout__logo box2d js-color-switch-trigger" data-bg-color="#121212" data-color="#E5E5E5" aria-label="Bornfight Studio">
+    <div class="c-logo js-color-switch-trigger" data-bg-color="#121212" data-color="#E5E5E5">
+    <svg viewBox="0 0 200 17" id="bf-logo" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 16.6369H4.74784C7.59235 16.6369 10.646 15.7971 10.646 12.0067C10.646 9.6008 9.24469 8.51135 7.82243 8.08011C8.93095 7.64887 10.0186 6.55941 10.0186 4.38051C10.0186 1.498 8.07341 0.408545 4.47593 0.408545H0V16.6369ZM2.17522 9.30574H4.8315C6.9858 9.30574 8.36623 9.96395 8.36623 11.9613C8.36623 13.9586 6.96489 14.6395 5.27073 14.6395H2.17522V9.30574ZM2.17522 2.42857H3.8903C6.12826 2.42857 7.6551 2.65554 7.6551 4.83445C7.6551 6.71829 6.60932 7.35381 4.60143 7.35381H2.17522V2.42857Z"/>
+        <path d="M19.5039 0.090788C15.028 0.090788 11.9952 3.51803 11.9952 8.53405C11.9952 13.5501 15.0071 16.9546 19.5249 16.9546C24.0635 16.9546 27.0545 13.5501 27.0545 8.53405C27.0545 3.51803 24.0217 0.090788 19.5039 0.090788ZM19.483 2.11081C22.7249 2.11081 24.6492 4.74366 24.6492 8.51135C24.6492 12.2563 22.704 14.9573 19.5039 14.9573C16.2829 14.9573 14.3587 12.2109 14.3587 8.51135C14.3587 4.78905 16.2411 2.11081 19.483 2.11081Z"/>
+        <path d="M29.3034 16.6369H31.4995V10.1228H33.6329C34.6996 12.1202 35.9964 14.4806 37.1049 16.6369H39.7403C38.0252 13.5047 36.9794 11.6435 35.9127 9.75968C37.8369 9.32844 39.5311 8.01202 39.5311 5.1522C39.5311 3.49533 38.9245 2.17891 37.7533 1.33912C36.6866 0.544726 35.3271 0.408545 33.8211 0.408545H29.3034V16.6369ZM31.4995 2.51936C31.8551 2.49666 32.2316 2.49666 32.608 2.49666H33.8002C35.8709 2.49666 37.1467 3.22296 37.1467 5.24299C37.1467 7.24032 35.8918 8.05741 33.8002 8.05741H31.4995V2.51936Z"/>
+        <path d="M41.79 16.6369H43.9652V8.05741C43.9652 6.89987 43.9443 5.69693 43.9443 4.69827V3.60881H43.9652C44.1744 4.08545 45.1156 5.81041 46.0149 7.51268L50.9719 16.6369H53.8164V0.408545H51.6412V8.96529C51.6412 10.5314 51.683 12.4606 51.683 13.3912L51.6621 13.4139L49.8006 9.89586L44.7182 0.408545H41.79V16.6369Z"/>
+        <path d="M56.2852 16.6369H58.5022V9.37383H64.9442V7.28571H58.5022V2.49666H65.4462V0.408545H56.2852V16.6369Z"/>
+        <path d="M67.6281 16.6369H69.8242V0.408545H67.6281V16.6369Z" />
+        <path d="M78.9467 8.05741V10.1228H84.4056C84.2383 12.4379 82.7951 15.0027 79.5532 15.0027C76.4577 15.0027 74.4707 12.4606 74.4707 8.53405C74.4707 4.4713 76.5205 2.11081 79.595 2.11081C82.1677 2.11081 83.4226 3.54072 84.0919 5.26569H86.3717C85.5978 2.31509 83.3808 0.090788 79.616 0.090788C75.0354 0.090788 72.0863 3.6769 72.0863 8.55674C72.0863 13.6862 75.1609 17 79.365 17C82.0631 17 83.5899 15.6382 84.3847 14.5941C84.3638 15.0254 84.3638 15.4339 84.3638 15.8198V16.6369H86.3717V8.05741H78.9467Z"/>
+        <path d="M90.8893 16.6369V9.30574H97.8333V16.6369H100.008V0.408545H97.8333V7.28571H90.8893V0.408545H88.6932V16.6369H90.8893Z"/>
+        <path d="M105.963 16.6369H108.159V2.49666H112.217V0.408545H101.906V2.49666H105.963V16.6369Z"/>
+        <path d="M117.284 12.0294C117.472 15.1389 119.584 16.9546 122.952 16.9546C126.194 16.9546 128.453 15.0027 128.453 12.0294C128.453 9.32844 126.738 8.26168 124.102 7.4219L123.056 7.08144C121.425 6.53672 120.107 6.01469 120.107 4.33511C120.107 2.9733 121.111 2.04272 122.868 2.04272C124.688 2.04272 125.629 2.9733 125.88 4.60748H128.139C127.867 1.81575 126.131 0.0680913 122.931 0.0680913C119.835 0.0680913 117.744 1.90654 117.744 4.53939C117.744 7.12684 119.417 8.28438 122.115 9.19226L123.098 9.53271C124.834 10.1455 126.131 10.5541 126.131 12.3244C126.131 13.9586 124.96 15.0481 122.973 15.0481C120.818 15.0481 119.794 13.7543 119.522 12.0294H117.284Z"/>
+        <path d="M133.333 16.6369H135.529V2.49666H139.587V0.408545H129.275V2.49666H133.333V16.6369Z"/>
+        <path d="M143.535 0.408545H141.339V10.3271C141.339 12.279 141.506 13.5047 142.343 14.7984C143.242 16.1602 144.936 16.9092 146.84 16.9092C148.743 16.9092 150.479 16.1375 151.399 14.753C152.173 13.5955 152.382 12.2336 152.382 10.3271V0.408545H150.186V10.259C150.186 11.6208 150.124 12.5741 149.726 13.3685C149.245 14.3672 148.116 14.98 146.84 14.98C145.564 14.98 144.476 14.3672 143.995 13.3685C143.598 12.5514 143.535 11.6208 143.535 10.259V0.408545Z"/>
+        <path d="M154.714 16.6369H159.148C164.858 16.6369 167.096 13.028 167.096 8.55674C167.096 3.29106 164.377 0.408545 158.793 0.408545H154.714V16.6369ZM156.931 2.47397H157.601C157.998 2.47397 158.437 2.45127 158.835 2.45127C162.62 2.45127 164.712 4.53939 164.712 8.55674C164.712 13.028 162.558 14.6168 158.625 14.6168H156.931V2.47397Z"/>
+        <path d="M169.386 16.6369H171.582V0.408545H169.386V16.6369Z" />
+        <path d="M181.353 0.090788C176.877 0.090788 173.845 3.51803 173.845 8.53405C173.845 13.5501 176.856 16.9546 181.374 16.9546C185.913 16.9546 188.904 13.5501 188.904 8.53405C188.904 3.51803 185.871 0.090788 181.353 0.090788ZM181.332 2.11081C184.574 2.11081 186.499 4.74366 186.499 8.51135C186.499 12.2563 184.553 14.9573 181.353 14.9573C178.132 14.9573 176.208 12.2109 176.208 8.51135C176.208 4.78905 178.09 2.11081 181.332 2.11081Z"/>
+        <path d="M193.328 8.30708H194.332V5.96929H194.98L196.277 8.30708H197.406L196.026 5.83311C196.758 5.62884 197.323 5.12951 197.323 4.06275C197.323 3.44993 197.114 2.9733 196.674 2.67824C196.277 2.40588 195.796 2.33778 195.231 2.33778H193.328V8.30708ZM194.332 3.24566H195.148C195.88 3.24566 196.34 3.47263 196.34 4.13084C196.34 4.83445 195.88 5.06142 195.148 5.06142H194.332V3.24566ZM200 5.28839C200 2.38318 197.804 0 195.127 0C192.366 0 190.232 2.38318 190.232 5.28839C190.232 8.23899 192.429 10.5995 195.106 10.5995C197.825 10.5995 200 8.23899 200 5.28839ZM199.059 5.28839C199.059 7.69426 197.281 9.6235 195.106 9.6235C192.91 9.6235 191.195 7.69426 191.195 5.28839C191.195 2.90521 192.91 0.975967 195.127 0.975967C197.281 0.975967 199.059 2.90521 199.059 5.28839Z"/>
+    </svg>
+</div>
+
+</a>
+
+<div class="c-sticky-layout__socials js-color-switch-trigger" data-bg-color="#121212" data-color="#E5E5E5">
+    <a href="https://www.instagram.com/bornfight.studio" class="u-b0" target="_blank" rel="noreferrer">Instagram</a>
+    <a href="https://dribbble.com/bornfight_studio" class="u-b0 box2d" target="_blank" rel="noreferrer">Dribbble</a>
+    <a href="https://www.awwwards.com/bornfight_studio/" class="u-b0 box2d" target="_blank" rel="noreferrer">Awwwards</a>
+</div>
+
+    <div class="c-cursor-wrapper js-cursor-wrapper">
+    <svg class="c-cursor js-cursor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1314 712">
+        <polyline class="c-cursor__line js-cursor-line" fill="none" points=""></polyline>
+    </svg>
+</div>
+ <a class="u-uppercase c-marquee js-color-switch-trigger" data-bg-color="#121212" data-color="#E5E5E5" href="mailto:hello@bornfight.studio" target="_blank" rel="noreferrer">
+    <p class="c-marquee__mover">
+        hello@bornfight.studio
+    </p>
+
+    <p class="c-marquee__mover">
+        hello@bornfight.studio
+    </p>
+
+    <p class="c-marquee__mover">
+        hello@bornfight.studio
+    </p>
+
+    <p class="c-marquee__mover">
+        hello@bornfight.studio
+    </p>
+
+    <p class="c-marquee__mover">
+        hello@bornfight.studio
+    </p>
+</a>
+
+
+    <script type="text/javascript" defer src="../static/js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" defer src="../static/dist/vendor.js"></script>
+    <script type="text/javascript" defer src="../static/dist/bundle.js"></script>
+    <script type="text/javascript" defer src="../static/js/vendor/quicklink.js"></script>
+    <script defer type="text/javascript">
+        let msg = "%cHello fellow INSPECTOR 👋! Welcome!";
+        let styles = [
+            "font-size: 16px",
+            "font-weight: bold",
+            "font-family: monospace",
+            "background: black",
+            "color: white",
+            "display: inline-block",
+            "padding: 10px 25px",
+            "border: 1px dashed white;",
+        ].join(";");
+        console.log(msg, styles);
+    </script>
+</body>
+</html>

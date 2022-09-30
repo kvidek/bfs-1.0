@@ -1,0 +1,79 @@
+.c-loader-wrapper {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.c-loader {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: $black;
+
+    &__inner {
+        position: relative;
+        width: 50%;
+        @include fluidValue("max-width", null, 720px);
+        transform: skewY(2.5deg);
+
+        @include mq(md) {
+            width: 100%;
+            max-width: 280px;
+        }
+    }
+
+    &__item {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+
+        &--alt {
+            z-index: 0;
+            width: 38%;
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            transform: translateY(-50%);
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+
+    &__clipper {
+        position: relative;
+        height: 120%;
+        top: -10%;
+        overflow: hidden;
+        transform: skewY(-2.5deg);
+    }
+
+    .letters {
+        display: block;
+        width: 100%;
+    }
+
+    .letter-alt {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

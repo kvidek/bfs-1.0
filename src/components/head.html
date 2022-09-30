@@ -1,0 +1,137 @@
+<meta charset="utf-8" />
+<title>@@title</title>
+<meta name="description" content="@@description" />
+<meta name="author" content="@@author" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="@@author" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="@@ogURL" />
+<meta property="og:title" content="@@ogTitle" />
+<meta property="og:image" content="https://bornfight.studio/@@ogShareImage" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
+<link rel="apple-touch-icon" sizes="180x180" href="@@faviconPath/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="@@faviconPath/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="@@faviconPath/favicon-16x16.png" />
+<link rel="manifest" href="@@faviconPath/site.webmanifest" />
+<link rel="mask-icon" href="@@faviconPath/safari-pinned-tab.svg" color="#5bbad5" />
+<meta name="msapplication-TileColor" content="#da532c" />
+<meta name="theme-color" content="#ffffff" />
+
+<style id="critical-css">
+    .c-loader-wrapper {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: fixed;
+        z-index: 999;
+        pointer-events: none;
+    }
+
+    .c-loader {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 100%;
+        background-color: #121212;
+    }
+
+    .c-loader__inner {
+        position: relative;
+        width: 50%;
+        max-width: 720px;
+        -webkit-transform: skewY(2.5deg);
+        transform: skewY(2.5deg);
+    }
+
+    @media (min-width: 1440px) {
+        .c-loader__inner {
+            max-width: 50vw;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .c-loader__inner {
+            width: 100%;
+            max-width: 280px;
+        }
+    }
+
+    .c-loader__item {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .c-loader__item--alt {
+        z-index: 0;
+        width: 38%;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .c-loader__item--alt img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+    }
+
+    .c-loader__clipper {
+        position: relative;
+        height: 120%;
+        top: -10%;
+        overflow: hidden;
+        -webkit-transform: skewY(-2.5deg);
+        transform: skewY(-2.5deg);
+    }
+
+    .c-loader .letters {
+        display: block;
+        width: 100%;
+    }
+
+    .c-loader .letter-alt {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
+<link rel="stylesheet" href="@@style" />
+
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-NPWNLGX");
+</script>
+<!-- End Google Tag Manager -->

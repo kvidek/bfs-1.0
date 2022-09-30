@@ -1,0 +1,100 @@
+[
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_1.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_1.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_2.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_2.jpg",
+        "workRightImageAlt": "Dionaea Gardens",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_3.jpg",
+        "workRightImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_3.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_4.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_4.jpg",
+        "workRightImageAlt": "Dionaea Gardens",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_5.jpg",
+        "workRightImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_5.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_6.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_6.jpg",
+        "workRightImageAlt": "Dionaea Gardens",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_7.jpg",
+        "workRightImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_7.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_8.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_8.jpg",
+        "workRightImageAlt": "Dionaea Gardens",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_9.jpg",
+        "workRightImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_9.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_10.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_10.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_11.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_11.jpg",
+        "workRightImageAlt": "Dionaea Gardens",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_12.jpg",
+        "workRightImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_12.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_13.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_13.jpg",
+        "workRightImageAlt": "Dionaea Gardens",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_14.jpg",
+        "workRightImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_14.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_15.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_15.jpg",
+        "workRightImageAlt": "Dionaea Gardens",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_16.jpg",
+        "workRightImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_16.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Dionaea Gardens",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/dionaea/dionaea_gardens_desktop/dionaea_gardens_desktop_17.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/dionaea/dionaea_gardens_mobile/dionaea_gardens_mobile_17.jpg"
+    }
+]

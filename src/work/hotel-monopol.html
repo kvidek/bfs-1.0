@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html id="bornfight-studio" lang="en" class="" data-init-body-text-color="#000000" data-init-body-bg-color="#ffffff">
+<head>
+    @@include('head.html', {
+    "ogSiteName": "Bornfight Studio - Web Production & Digital Branding",
+    "ogURL": "https://bornfight.studio/",
+    "ogTitle": "Bornfight Studio | Hotel Monopol",
+    "ogShareImage": "../static/images/share.jpg",
+    "title": "Bornfight Studio | Hotel Monopol",
+    "description": "A close-packed team of Bornfight’s specialists focused on design and development.",
+    "author": "Bornfight Studio",
+    "style": "../static/dist/style.css",
+    "faviconPath": "../favicon",
+    })
+</head>
+
+<body>
+    @@include('loader.html', {
+    "staticPath": "../static",
+    })
+
+    <div id="js-scroll" data-scroll-container class="o-scroll o-page o-page--work">
+        @@include('work/header.html', { "workTitle": "Hotel Monopol" }) @@include('work/intro.html', { "introText": "Monopol is a 3rd generation family hotel patroned by business travelers in downtown Frankfurt. To better present their tradition and professionalism, the site was overhauled with a cleaner, classic look.", "introServices": ["WEB DESIGN", "Development", "Content Strategy"] })
+
+        @@loop('work-single-section.html', "./hotel-monopol.json")
+
+        @@include('work/cta.html', {
+        "workUrl": "https://hotelmonopol-frankfurt.com/",
+        "nextWorkUrl": "/work/pet-pak",
+        "nextJpeg": "../static/images/work/petpak-desktop.jpg",
+        "nextWebp": "../static/images/work/petpak-desktop.webp",
+        })
+
+        @@include('image-trail.html', {"isWorkSingle": "true", })
+
+        @@include('footer.html')
+    </div>
+
+    @@include('work/sticky-layout.html')
+    @@include('cursor.html') @@include('marquee.html')
+
+    <script type="text/javascript" defer src="../static/js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" defer src="../static/dist/vendor.js"></script>
+    <script type="text/javascript" defer src="../static/dist/bundle.js"></script>
+    <script type="text/javascript" defer src="../static/js/vendor/quicklink.js"></script>
+    <script defer type="text/javascript">
+        let msg = "%cHello fellow INSPECTOR 👋! Welcome!";
+        let styles = [
+            "font-size: 16px",
+            "font-weight: bold",
+            "font-family: monospace",
+            "background: black",
+            "color: white",
+            "display: inline-block",
+            "padding: 10px 25px",
+            "border: 1px dashed white;",
+        ].join(";");
+        console.log(msg, styles);
+    </script>
+</body>
+</html>

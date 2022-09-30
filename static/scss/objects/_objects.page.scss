@@ -1,0 +1,110 @@
+.o-page {
+    position: relative;
+
+    &__inner {
+        overflow: hidden;
+    }
+
+    &--landing {
+        //padding-top: 50vh;
+    }
+
+    &--work {
+        .c-image-trail__wrapper,
+        .c-image-trail__bottom {
+            //transform: rotate(0deg);
+        }
+
+        .c-image-trail__content {
+            //min-height: 80vh;
+        }
+    }
+
+    &--404 {
+        padding-left: percentage(1, 24);
+        padding-right: percentage(1, 24);
+        overflow: hidden;
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        @media not all and (hover: hover) {
+            min-height: var(--app-height);
+        }
+
+        @include mq(md) {
+            @include fluidValue("padding-left", "s-80");
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            @include mq(sm) {
+                font-size: 100px;
+            }
+
+            span {
+                @include fluidValue("padding-left", "s-8");
+                @include fluidValue("padding-right", "s-8");
+                display: inline-block;
+            }
+        }
+
+        h5 {
+            @include fluidValue("padding-top", "s-32");
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            @include mq(sm) {
+                font-size: 30px;
+            }
+
+            span {
+                display: inline-block;
+                @include fluidValue("padding-right", "s-8");
+            }
+        }
+
+        .go-back {
+            @include fluidValue("top", null, 15px);
+            @include fluidValue("padding-left", "s-48");
+            position: absolute !important;
+            left: 50%;
+            transform: translateX(-50%);
+
+            @include mq(md) {
+                left: auto;
+                transform: none;
+                right: 20px;
+                top: 50px;
+            }
+        }
+
+        .c-cookie {
+            @include mq(md) {
+                //top: 80px;
+            }
+        }
+
+        .c-sticky-layout__services {
+            display: none;
+        }
+
+        .c-sticky-layout__socials {
+            position: absolute;
+        }
+    }
+
+    &--petpak-awww {
+        .c-sticky-layout__services {
+            display: none;
+        }
+    }
+}

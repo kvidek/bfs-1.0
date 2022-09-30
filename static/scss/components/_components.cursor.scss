@@ -1,0 +1,28 @@
+.c-cursor-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 998;
+
+    @include mq(md) {
+        display: none;
+    }
+}
+
+.c-cursor {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &__line {
+        stroke-dasharray: 0;
+        stroke-width: 1;
+        stroke-linecap: round;
+        stroke: $red !important;
+    }
+}

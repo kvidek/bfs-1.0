@@ -1,0 +1,70 @@
+[
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Ljubicic Tennis Academy",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_1.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_1.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Ljubicic Tennis Academy",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_2.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_2.jpg",
+        "workRightImageAlt": "Ljubicic Tennis Academy",
+        "workRightImageAr": "3-2",
+        "workRightImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_3.jpg",
+        "workRightImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_3.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Ljubicic Tennis Academy",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_4.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_4.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Ljubicic Tennis Academy",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_5.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_5.jpg",
+        "workRightImageAlt": "Ljubicic Tennis Academy",
+        "workRightImageAr": "3-2",
+        "workRightImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_6.jpg",
+        "workRightImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_6.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Ljubicic Tennis Academy",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_7.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_7.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Ljubicic Tennis Academy",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_8.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_8.jpg",
+        "workRightImageAlt": "Ljubicic Tennis Academy",
+        "workRightImageAr": "3-2",
+        "workRightImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_9.jpg",
+        "workRightImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_9.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Ljubicic Tennis Academy",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_10.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_10.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Ljubicic Tennis Academy",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/ljta/ljubicic_tennis_academy_desktop/ljubicic_tennis_academy_desktop_11.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/ljta/ljubicic_tennis_academy_mobile/ljubicic_tennis_academy_mobile_11.jpg"
+    }
+]

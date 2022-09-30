@@ -1,0 +1,43 @@
+.c-services {
+
+    @include mq(md) {
+        display: none;
+        margin-left: auto;
+        text-align: right;
+    }
+}
+
+.c-copy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @include mq(md) {
+
+    }
+
+    a {
+        display: inline-block;
+        padding: 0 20px;
+        color: $white-40;
+        transition: all 0.25s ease-in-out;
+
+        @include hover {
+            color: $white;
+            text-decoration: underline;
+        }
+
+        @include mq(md) {
+            margin-left: auto;
+            text-align: right;
+        }
+    }
+
+    p {
+        color: $white-40;
+
+        @include mq(md) {
+            margin-left: 30px
+        }
+    }
+}

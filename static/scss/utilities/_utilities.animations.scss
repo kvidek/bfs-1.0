@@ -1,0 +1,11 @@
+.u-disappear {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s 0.1s ease-in-out, visibility 0.4s 0.1s ease-in-out;
+    transform: translateZ(0);
+}
+
+.u-appear {
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,5 @@
+.c-logo {
+    @include fluidValue("width", null, 200px);
+    height: auto;
+    pointer-events: auto;
+}

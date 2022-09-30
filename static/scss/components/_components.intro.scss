@@ -1,0 +1,48 @@
+.c-intro {
+    @include fluidValue("padding-left", "s-16");
+    @include fluidValue("padding-right", "s-16");
+    @include fluidValue("padding-top", "s-80");
+    @include fluidValue("padding-bottom", "s-64");
+
+    @include mq(md) {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+
+    &__inner {
+        width: percentage(16.15, 23);
+        display: flex;
+        justify-content: space-between;
+
+        @include mq(md) {
+            width: 100%;
+            padding-left: 10px;
+        }
+
+        @include mq(sm) {
+            width: 100%;
+            flex-direction: column;
+        }
+    }
+
+
+    &__left {
+        width: percentage(6.25, 16.25);
+
+        @include mq(sm) {
+            width: 100%;
+        }
+    }
+
+    &__right {
+        text-align: right;
+        @include fluidValue("padding-left", null, 15px);
+
+        @include mq(sm) {
+            padding-top: 15px;
+            padding-left: 0;
+            width: 100%;
+            text-align: left;
+        }
+    }
+}

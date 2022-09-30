@@ -1,0 +1,42 @@
+.o-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3.1vw;
+
+    &--footer {
+        mix-blend-mode: difference;
+        background-color: var(--body-bg);
+        color: $white-100;
+    }
+
+    @include mq(md) {
+        @include fluidValue("padding-left", "s-80");
+    }
+
+    &--cta {
+        @include fluidValue("padding-left", "s-16");
+        @include fluidValue("padding-right", "s-16");
+        margin-left: 3.1vw;
+        width: 96.9vw;
+        position: relative;
+        z-index: 1;
+
+        @include mq(md) {
+            @include fluidValue("padding-left", "s-80");
+            margin-left: 0;
+            width: 100%;
+
+            .c-cta {
+                padding-left: 10px;
+            }
+        }
+    }
+
+    &--image-trail {
+        @include mq(md) {
+            @include fluidValue("margin-top", "s-96");
+        }
+    }
+}

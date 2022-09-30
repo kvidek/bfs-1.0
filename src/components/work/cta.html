@@ -1,0 +1,52 @@
+<section class="o-section o-section--cta" data-scroll-section>
+    <div class="o-container">
+        <div class="c-cta" data-scroll>
+            <a href="mailto:hello@bornfight.studio" target="_blank" rel="noreferrer" class="c-cta__top">
+                @@include('work/image.html', {
+                "alt": "Get in Touch",
+                "ar": "2-1",
+                "jpegDesktop": "../static/images/work/last-work-single-desktop.jpg",
+                "jpegMobile": "../static/images/work/last-work-single-mobile.jpg",
+                "webpDesktop": "../static/images/work/last-work-single-desktop.webp",
+                "webpMobile": "../static/images/work/last-work-single-mobile.webp",
+                })
+            </a>
+
+            <div class="c-cta__links-wrapper">
+                <ul class="c-cta__links u-text-center js-color-switch-trigger" data-bg-color="#121212"
+                    data-color="#E5E5E5">
+                    <li>
+                        <a href="/" class="c-button">
+                        <span class="c-button__label">
+                            Back to home
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@@workUrl" class="c-button" target="_blank" rel="noreferrer">
+                        <span class="c-button__label">
+                            Go to website
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@@nextWorkUrl" class="c-button js-next-project-link">
+                        <span class="c-button__label">
+                            Next case
+                        </span>
+
+                            <span class="c-button__next-img js-next-project-image">
+                            <picture>
+                                <source data-srcset="@@nextWebp" type="image/webp" />
+                                <source data-srcset="@@nextJpeg" type="image/jpeg" />
+                                <img data-src="@@nextJpeg" alt="Next work case"
+                                     class="js-lazy" />
+                            </picture>
+                        </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,50 @@
+.c-cta {
+    @include fluidValue("padding-bottom", "s-24");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20vh;
+
+    @include mq(md) {
+        margin-bottom: 0;
+    }
+
+    &__links-wrapper {
+        padding-right: percentage(0.25, 24);
+    }
+
+    &__links {
+        display: inline-flex;
+        justify-content: center;
+
+        @include mq(md) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        li {
+            @include fluidValue("padding-left", "s-8");
+            @include fluidValue("padding-right", "s-8");
+
+            @include mq(md) {
+                @include fluidValue("padding-bottom", "s-16");
+            }
+        }
+    }
+
+    &__top {
+        @include fluidValue("margin-bottom", "s-24");
+        width: 100%;
+
+        .u-image-wrapper__inner {
+            clip-path: inset(0 0 0 0);
+            transition: clip-path 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+
+        @include hover {
+            .u-image-wrapper__inner {
+                clip-path: inset(1.5% 1.5% 1.5% 1.5%);
+            }
+        }
+    }
+}

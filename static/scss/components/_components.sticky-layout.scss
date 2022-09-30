@@ -1,0 +1,94 @@
+.c-sticky-layout {
+
+    &__logo {
+        @include fluidValue("top", null, 15px);
+        position: fixed;
+        right: percentage(0.25, 24);
+        display: inline-block;
+        mix-blend-mode: difference;
+        color: $white;
+
+        @include mq(md) {
+            right: 20px;
+        }
+    }
+
+    &__services {
+        @include fluidValue("top", null, 15px);
+        position: fixed;
+        display: inline-block;
+        mix-blend-mode: difference;
+        color: $white;
+        right: get-vw(460px);
+        text-align: right;
+        text-transform: uppercase;
+
+        @include mq(md) {
+            top: 45px;
+            right: 20px;
+            width: 100%;
+            padding-left: percentage(1, 24);
+        }
+    }
+
+    &__socials {
+        @include fluidValue("bottom", null, 15px);
+        position: fixed;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        mix-blend-mode: difference;
+        pointer-events: none;
+        z-index: 1;
+
+        .is-cookie-active & {
+            @include mq(md) {
+                @include fluidValue("bottom", null, 55px);
+            }
+        }
+
+        @include mq(md) {
+            padding-left: 60px;
+            padding-right: 20px;
+            position: relative;
+        }
+
+        a {
+            color: $white;
+            display: inline-block;
+            padding-right: percentage(0.25, 24);
+            padding-left: percentage(0.25, 24);
+            pointer-events: auto;
+
+            @include mq(md) {
+                @include fluidValue("padding-left", "s-16");
+                padding-right: 0;
+            }
+        }
+    }
+
+    &__back {
+        @include fluidValue("top", null, 15px);
+        position: fixed;
+        width: percentage(16.25, 23);
+        padding-left: percentage(2, 23);
+        text-align: right;
+        text-decoration: underline;
+        mix-blend-mode: difference;
+        color: $white;
+
+        @include mq(md) {
+            top: 45px;
+            width: 100%;
+            padding-right: 20px;
+            padding-left: percentage(1, 24);
+        }
+
+        @include hover {
+            text-decoration: none;
+        }
+    }
+}

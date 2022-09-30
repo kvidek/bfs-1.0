@@ -1,0 +1,19 @@
+<footer class="c-footer" data-scroll-section>
+
+</footer>
+
+@@include('cookie.html')
+
+<script type="text/javascript" defer>
+    window.addEventListener("load", () => {
+        quicklink.listen();
+    });
+
+    var appHeight = () => {
+        var doc = document.documentElement;
+        doc.style.setProperty("--app-height", `${window.innerHeight}px`);
+    };
+
+    window.addEventListener("resize", appHeight);
+    appHeight();
+</script>

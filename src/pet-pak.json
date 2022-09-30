@@ -1,0 +1,110 @@
+[
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_1.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_1.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_2.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_2.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_3.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_3.jpg",
+        "workRightImageAlt": "PET PAK",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_4.jpg",
+        "workRightImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_4.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_5.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_5.jpg",
+        "workRightImageAlt": "PET PAK",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_6.jpg",
+        "workRightImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_6.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_7.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_7.jpg",
+        "workRightImageAlt": "PET PAK",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_8.jpg",
+        "workRightImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_8.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_9.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_9.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_10.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_10.jpg",
+        "workRightImageAlt": "PET PAK",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_11.jpg",
+        "workRightImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_11.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_12.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_12.jpg",
+        "workRightImageAlt": "PET PAK",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_13.jpg",
+        "workRightImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_13.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_14.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_14.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_15.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_15.jpg",
+        "workRightImageAlt": "PET PAK",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_16.jpg",
+        "workRightImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_16.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_17.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_17.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "PET PAK",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/petpak/petpak_case_desktop/petpak_desktop_18.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/petpak/petpak_case_mobile/petpak_mobile_18.jpg"
+    }
+]

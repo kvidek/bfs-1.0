@@ -1,0 +1,78 @@
+[
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "FitLine",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_1.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_1.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "FitLine",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_2.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_2.jpg",
+        "workRightImageAlt": "FitLine",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_3.jpg",
+        "workRightImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_3.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "FitLine",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_4.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_4.jpg",
+        "workRightImageAlt": "FitLine",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_5.jpg",
+        "workRightImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_5.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "FitLine",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_6.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_6.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "FitLine",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_7.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_7.jpg",
+        "workRightImageAlt": "FitLine",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_8.jpg",
+        "workRightImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_8.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "FitLine",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_9.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_9.jpg",
+        "workRightImageAlt": "FitLine",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_10.jpg",
+        "workRightImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_10.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "FitLine",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_11.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_11.jpg",
+        "workRightImageAlt": "FitLine",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_12.jpg",
+        "workRightImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_12.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "FitLine",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/fitline/fitline_case_desktop/fitline_desktop_13.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/fitline/fitline_case_mobile/fitline_mobile_13.jpg"
+    }
+]

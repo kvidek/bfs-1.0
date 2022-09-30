@@ -1,0 +1,49 @@
+.c-marquee {
+    height: 3.1vw;
+    font-size: 2.5vw;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    border-bottom: 1px solid $red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform-origin: left top;
+    transform: translate3d(0, 0, 0) rotate(-90deg) translateX(-100%);
+    font-family: $font-primary;
+    line-height: 90%;
+    letter-spacing: -0.04em;
+    background-color: var(--body-bg-color);
+
+    @include mq(md) {
+        @include fluidValue("height", "s-80");
+        @include fontSize("a2");
+        line-height: 96%;
+    }
+
+    &__mover {
+        @include fluidValue("padding-right", "s-48");
+        display: inline-flex;
+        align-items: center;
+        animation: marquee 20s linear infinite;
+        animation-play-state: running;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
+        will-change: transform;
+    }
+    @include hover{
+        .c-marquee__mover {
+            animation-play-state: paused;
+        }
+    }
+}
+
+@keyframes marquee {
+    100% {
+        transform: translateX(-100%);
+    }
+}

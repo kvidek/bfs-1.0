@@ -1,0 +1,30 @@
+//    PROPS:
+//    "projectAlignment": "big-small" - types: big-small | small-big | medium-medium | full
+//    "project1Url": "https://www.bla-bla-com/"
+//    "project1name": "Ljubicic Tennis Academy",
+//    "project1phases": ["DESIGN", "DEVELOPMENT", "CONTENT STRATEGY"],
+//
+//    Can be video or photo (only difference can be project1 or project2)
+//    VIDEO
+//    "project1videoDesktopPoster": "static/images/desktop.jpeg",
+//    "project1videoMobilePoster": "static/images/mobile.jpeg",
+//    "project1videoDesktop": "static/videos/desktop.mp4",
+//    "project1videoMobile": "static/videos/mobile.mp4",
+//
+//    PHOTO
+//    "project1imagealt": "some alt text",
+//    "project1imagear": "16-9",
+//    "project1imagejpegDesktop": "static/images/mobile.jpeg",
+//    "project1imagejpegMobile": "static/images/desktop.jpeg",
+//    "project1imagewebpDesktop": "static/images/mobile.webp",
+//    "project1imagewebpMobile": "static/images/desktop.webp"
+//
+//    "project2Url": "https://www.bla-bla-com/"
+//    "project2name": "Dionea",
+//    "project2phases": ["DESIGN", "DEVELOPMENT"],
+//    "project2imagealt": "some alt text",
+//    "project2imagear": "16-9",
+//    "project2imagejpegDesktop": "static/images/desktop.jpeg",
+//    "project2imagejpegMobile": "static/images/mobile.jpeg",
+//    "project2imagewebpDesktop": "static/images/desktop.webp",
+//    "project2imagewebpMobile": "static/images/mobile.webp"

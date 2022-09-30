@@ -1,0 +1,16 @@
+<div class="u-image-wrapper u-image-wrapper--@@ar">
+    <div class="u-image-wrapper__inner">
+        <picture>
+            @@if (context.webpDesktop !== "@@workLeftImagewebpDesktop" && context.webpDesktop !== "@@workRightImagewebpDesktop") {
+            <source type="image/webp" media="(min-width:485px)" data-srcset="@@webpDesktop" />
+            } @@if (context.jpegDesktop) {
+            <source type="image/jpeg" media="(min-width:485px)" data-srcset="@@jpegDesktop" />
+            } @@if (context.webpMobile !== "@@workLeftImagewebpMobile" && context.webpMobile !== "@@workRightImagewebpMobile") {
+            <source type="image/webp" media="(min-width:200px)" data-srcset="@@webpMobile" />
+            } @@if (context.jpegMobile) {
+            <source type="image/jpeg" media="(min-width:200px)" data-srcset="@@jpegMobile" />
+            }
+            <img data-src="@@jpegDesktop" alt="@@alt" class="js-lazy" />
+        </picture>
+    </div>
+</div>

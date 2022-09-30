@@ -1,0 +1,11 @@
+@use "sass:math";
+
+/**
+ * replacement function for math.div()
+ * usage:
+ * padding-left: percentage(1, 24);
+ */
+
+@function percentage($num1, $num2) {
+    @return math.div($num1, $num2) * 100%;
+}

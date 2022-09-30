@@ -1,0 +1,21 @@
+<section class="o-section o-section--intro" data-scroll-section>
+    <div class="o-container">
+        <div class="c-intro" data-scroll data-scroll-speed="2">
+            <div class="c-intro__inner">
+                <div class="c-intro__left">
+                    <p class="u-b0">@@introText</p>
+                </div>
+
+                @@if (context.introServices) {
+                <div class="c-intro__right">
+                    <ul>
+                        @@for (var i = 0; i < introServices.length; i++) {
+                        <li class="u-b1 u-uppercase">`+introServices[i]+`</li>
+                        }
+                    </ul>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

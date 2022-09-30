@@ -1,0 +1,138 @@
+<section class="o-section" data-scroll-section>
+    <div class="c-work c-work--@@projectAlignment">
+        <div class="o-container">
+            <div class="c-work__inner u-disappear" data-scroll data-scroll-class="u-appear" data-scroll-direction="horizontal" data-scroll-speed="2">
+
+                @@if(context.project1newTab){
+                <a href="@@project1Url" target="_blank" rel="noreferrer" class="c-work__project c-work__project--first">
+                    <div class="c-work__project-inner js-project-inner" data-scroll data-scroll-speed="1">
+                        <div class="c-work__project-media">
+                            @@if(context.project1imagejpegDesktop){
+
+                            @@include('image.html', { "alt": "@@project1imagealt", "ar": "@@project1imagear", "jpegDesktop": "@@project1imagejpegDesktop",
+                            "jpegMobile": "@@project1imagejpegMobile", "webpDesktop": "@@project1imagewebpDesktop", "webpMobile": "@@project1imagewebpMobile",
+                            })
+
+                            } @@if(context.project1videoDesktop){
+
+                            @@include('video.html', { "desktopPoster": "@@project1videoDesktopPoster", "mobilePoster": "@@project1videoMobilePoster",
+                            "desktop": "@@project1videoDesktop", "mobile": "@@project1videoMobile", })
+
+                            }
+                        </div>
+
+                        @@if (context.project1name){
+                        <p class="c-work__project-name u-a1">@@project1name</p>
+                        } @@if (context.project1phases){
+                        <ul class="c-work__project-phases u-b1">
+                            @@for (var i = 0; i < project1phases.length; i++) {
+                            <li>`+project1phases[i]+`</li>
+                            }
+                        </ul>
+                        }
+                    </div>
+                </a>
+                }
+
+                @@if(!context.project1newTab){
+                <a href="@@project1Url" class="c-work__project c-work__project--first">
+                    <div class="c-work__project-inner js-project-inner u-disappear" data-scroll data-scroll-class="u-appear" data-scroll-speed="1">
+                        <div class="c-work__project-media">
+                            @@if(context.project1imagejpegDesktop){
+
+                            @@include('image.html', { "alt": "@@project1imagealt", "ar": "@@project1imagear", "jpegDesktop": "@@project1imagejpegDesktop",
+                            "jpegMobile": "@@project1imagejpegMobile", "webpDesktop": "@@project1imagewebpDesktop", "webpMobile": "@@project1imagewebpMobile",
+                            })
+
+                            } @@if(context.project1videoDesktop){
+
+                            @@include('video.html', { "desktopPoster": "@@project1videoDesktopPoster", "mobilePoster": "@@project1videoMobilePoster",
+                            "desktop": "@@project1videoDesktop", "mobile": "@@project1videoMobile", })
+
+                            }
+                        </div>
+
+                        @@if (context.project1name){
+                        <p class="c-work__project-name u-a1">@@project1name</p>
+                        } @@if (context.project1phases){
+                        <ul class="c-work__project-phases u-b1">
+                            @@for (var i = 0; i < project1phases.length; i++) {
+                            <li>`+project1phases[i]+`</li>
+                            }
+                        </ul>
+                        }
+                    </div>
+                </a>
+                }
+
+                @@if(context.project2newTab){
+                    @@if (context.project2name){
+                    <a href="@@project2Url" target="_blank" rel="noreferrer" class="c-work__project c-work__project--second">
+                        <div class="c-work__project-inner u-disappear" data-scroll data-scroll-class="u-appear" data-scroll-speed="3">
+                            <div class="c-work__project-media">
+                                @@if(context.project2imagejpegDesktop){
+
+                                @@include('image.html', { "alt": "@@project2imagealt", "ar": "@@project2imagear", "jpegDesktop": "@@project2imagejpegDesktop",
+                                "jpegMobile": "@@project2imagejpegMobile", "webpDesktop": "@@project2imagewebpDesktop", "webpMobile": "@@project2imagewebpMobile",
+                                })
+
+                                } @@if(context.project2videoDesktop){
+
+                                @@include('video.html', { "desktopPoster": "@@project2videoDesktopPoster", "mobilePoster": "@@project2videoMobilePoster",
+                                "desktop": "@@project2videoDesktop", "mobile": "@@project2videoMobile", })
+
+                                }
+                            </div>
+
+                            <p class="c-work__project-name u-a1">@@project2name</p>
+
+                            @@if (context.project2phases){
+                            <ul class="c-work__project-phases u-b1">
+                                @@for (var i = 0; i < project2phases.length; i++) {
+                                <li>`+project2phases[i]+`</li>
+                                }
+                            </ul>
+                            }
+                        </div>
+                    </a>
+                    }
+                }
+
+                @@if(!context.project2newTab){
+                    @@if (context.project2name){
+                    <a href="@@project2Url" class="c-work__project c-work__project--second">
+                        <div class="c-work__project-inner u-disappear" data-scroll data-scroll-class="u-appear" data-scroll-speed="3">
+                            <div class="c-work__project-media">
+                                @@if(context.project2imagejpegDesktop){
+
+                                @@include('image.html', { "alt": "@@project2imagealt", "ar": "@@project2imagear", "jpegDesktop": "@@project2imagejpegDesktop",
+                                "jpegMobile": "@@project2imagejpegMobile", "webpDesktop": "@@project2imagewebpDesktop", "webpMobile": "@@project2imagewebpMobile",
+                                })
+
+                                } @@if(context.project2videoDesktop){
+
+                                @@include('video.html', { "desktopPoster": "@@project2videoDesktopPoster", "mobilePoster": "@@project2videoMobilePoster",
+                                "desktop": "@@project2videoDesktop", "mobile": "@@project2videoMobile", })
+
+                                }
+                            </div>
+
+                            <p class="c-work__project-name u-a1">@@project2name</p>
+
+                            @@if (context.project2phases){
+                            <ul class="c-work__project-phases u-b1">
+                                @@for (var i = 0; i < project2phases.length; i++) {
+                                <li>`+project2phases[i]+`</li>
+                                }
+                            </ul>
+                            }
+                        </div>
+                    </a>
+                    }
+                }
+
+
+            </div>
+        </div>
+    </div>
+</section>

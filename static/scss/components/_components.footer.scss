@@ -1,0 +1,14 @@
+.c-footer {
+    .is-cookie-active & {
+
+        &:after {
+            @include mq(md) {
+                position: relative;
+                display: block;
+                width: 100%;
+                content: "&nbsp;";
+                @include fluidValue("padding-bottom", "s-32");
+            }
+        }
+    }
+}

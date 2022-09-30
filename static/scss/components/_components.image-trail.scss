@@ -1,0 +1,210 @@
+.c-image-trail {
+    isolation: isolate;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+    user-select: none;
+
+    .o-page--work & {
+        background-color: var(--body-bg-color);
+    }
+
+    @include mq(md) {
+        width: 100%;
+    }
+
+    &__wrapper {
+        position: relative;
+        width: 100%;
+        transform: rotate(-2.5deg);
+
+        @include mq(md) {
+            @include fluidValue("margin-bottom", "s-96");
+            margin-top: 100px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: $white-100;
+        }
+
+        @include mq(sm) {
+            @include fluidValue("margin-bottom", "s-160");
+        }
+    }
+
+    &__inner {
+        //color: var(--body-text-color);
+    }
+
+    &__content {
+        min-height: 100vh;
+        pointer-events: none;
+        z-index: 1;
+        position: relative;
+        mix-blend-mode: difference;
+        color: $white-100;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @include mq(md) {
+            justify-content: flex-end;
+            color: $white-100;
+            display: flex;
+            min-height: 1px;
+            position: relative;
+        }
+
+        &:before {
+            @include mq(md) {
+                width: 100%;
+                content: "";
+                position: relative;
+                display: block;
+                padding-bottom: percentage(1067, 800);
+                color: $white-100;
+            }
+        }
+
+        .o-page--landing & {
+            color: transparent;
+        }
+    }
+
+    &__img {
+        @include fluidValue("max-width", null, 220px);
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        will-change: transform;
+        pointer-events: none;
+
+        @include mq(md) {
+            max-width: calc(100% - 40px);
+            left: auto;
+            right: 20px;
+        }
+
+        @include mq(sm) {
+            max-width: calc(100% - 40px);
+            right: 20px;
+        }
+    }
+
+    &__bottom {
+        position: relative;
+        left: 0;
+        @include fluidValue("bottom", "s-40");
+        width: 100%;
+        padding-left: percentage(5, 24);
+        padding-right: percentage(0.25, 24);
+        transform: rotate(-2.5deg);
+        mix-blend-mode: difference;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        @include mq(md) {
+            justify-content: flex-end;
+            padding-left: 10px;
+            padding-right: 20px;
+            position: relative;
+            transform: none;
+
+            .c-copy {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: flex-end;
+
+                a {
+                    padding-left: 10px;
+                    padding-right: 0;
+                }
+            }
+        }
+
+        @include mq(sm) {
+            flex-wrap: wrap;
+
+            .c-copy {
+                padding-top: 10px;
+                width: 100%;
+            }
+        }
+    }
+
+    &__heading {
+        width: get-vw(898px);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: percentage(0.25, 24);
+        align-items: center;
+
+        @include mq(lg) {
+            width: get-vw(910px);
+        }
+
+        @include mq(md) {
+            width: 100%;
+            padding-right: 30px;
+            padding-top: 40px;
+        }
+
+        @include mq(sm) {
+            padding-left: 20px;
+        }
+
+        &-top {
+            text-align: right;
+            padding-right: get-vw(270px);
+            display: block;
+
+            span {
+                display: block;
+            }
+
+            @include mq(md) {
+                padding-right: 0;
+                color: $white;
+            }
+        }
+
+        &-bottom {
+            align-self: flex-end;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            @include mq(md) {
+                padding-right: 0;
+                position: relative;
+                justify-content: flex-end;
+                color: $white;
+            }
+        }
+
+        .w50 {
+            flex: 0 0 auto;
+
+            @include mq(sm) {
+                padding-left: 10px;
+            }
+        }
+
+        .w100 {
+            flex: 1 0 100%;
+            text-align: right;
+        }
+    }
+}

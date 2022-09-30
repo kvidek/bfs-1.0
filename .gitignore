@@ -1,0 +1,10 @@
+node_modules/
+bower_components/
+.idea/
+.DS_Store
+static/dist/bundle.js
+static/dist/bundle.js.map
+static/dist/vendor.js
+static/dist/style.css
+static/dist/style.css.map
+/components/

@@ -1,0 +1,271 @@
+.c-work {
+    width: 100%;
+    transform: translateX(1%) rotate(-2.5deg);
+    @include fluidValue("padding-top", "s-136");
+    @include fluidValue("padding-bottom", "s-136");
+
+    @include mq(lg) {
+        @include fluidValue("padding-top", "s-96");
+        @include fluidValue("padding-bottom", "s-96");
+    }
+
+    @include mq(md) {
+        transform: rotate(0deg);
+        @include fluidValue("padding-top", "s-72");
+        @include fluidValue("padding-bottom", "s-72");
+    }
+
+    @include mq(sm) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    &__inner {
+        padding-left: percentage(0.75, 24);
+        padding-right: percentage(0.25, 24);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        @include mq(md) {
+            padding-right: 20px;
+            padding-left: 10px;
+        }
+    }
+
+    &__project {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: 50%;
+        //transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+        @include mq(sm) {
+            @include fluidValue("padding-top", "s-96");
+            @include fluidValue("padding-bottom", "s-96");
+            padding-left: 10px;
+        }
+
+        img,
+        video {
+            //transform: scale(1);
+            //transition: transform 6s linear;
+        }
+
+        .u-image-wrapper,
+        .u-video-wrapper {
+            transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+
+        .u-image-wrapper__inner,
+        .u-video-wrapper__inner {
+            clip-path: inset(0 0 0 0);
+            transform: scale(1);
+            transition: clip-path 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+            video,
+            img {
+                transform: scale(1);
+                transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            }
+        }
+
+        //states
+        @include hover {
+            //transform: rotate(2.5deg);
+
+            .u-image-wrapper__inner,
+            .u-video-wrapper__inner {
+                clip-path: inset(2.5% 2.5% 2.5% 2.5%);
+
+                video,
+                img {
+                    transform: scale(0.95);
+                }
+            }
+
+            .c-work__project-name,
+            .c-work__project-phases {
+                transform: scale(0.9);
+                opacity: 0.5;
+            }
+
+            img,
+            video {
+                //transform: scale(1.05);
+            }
+        }
+    }
+
+    &__project-inner {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: var(--body-text);
+    }
+
+    &__project-media {
+        width: 100%;
+    }
+
+    &__project-name {
+        @include fluidValue("padding-top", "s-8");
+        width: 50%;
+        transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), opacity 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+        @include mq(sm) {
+            width: 100%;
+        }
+    }
+
+    &__project-phases {
+        @include fluidValue("padding-top", "s-8");
+        transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), opacity 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        width: auto;
+        padding-right: 20px;
+
+        @include mq(sm) {
+            width: 100%;
+        }
+    }
+
+    // modifiers
+    &--small-big {
+        .c-work {
+            &__inner {
+                @include mq(md) {
+                    justify-content: space-between;
+                }
+            }
+
+            &__project {
+                &--first {
+                    width: percentage(6.75, 23);
+
+                    @include mq(md) {
+                        width: percentage(11.375, 23);
+                    }
+
+                    @include mq(sm) {
+                        width: 100%;
+                    }
+                }
+
+                &--second {
+                    margin-top: 20%;
+                    padding-left: percentage(0.25, 23);
+                    width: percentage(16.25, 23);
+
+                    @include mq(md) {
+                        margin-top: 30%;
+                        padding-left: 0;
+                        width: percentage(11.375, 23);
+                    }
+
+                    @include mq(sm) {
+                        margin-top: 0;
+                        width: 100%;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    &--big-small {
+        .c-work {
+            &__inner {
+                @include mq(md) {
+                    justify-content: space-between;
+                }
+            }
+
+            &__project {
+                &--first {
+                    padding-right: percentage(0.25, 23);
+                    width: percentage(16.25, 23);
+
+                    @include mq(md) {
+                        padding-right: 0;
+                        width: percentage(11.375, 23);
+                    }
+
+                    @include mq(sm) {
+                        width: 100%;
+                    }
+                }
+
+                &--second {
+                    margin-top: 40%;
+                    width: percentage(6.75, 23);
+
+                    @include mq(md) {
+                        margin-top: 15%;
+                        width: percentage(11.375, 23);
+                    }
+
+                    @include mq(sm) {
+                        margin-top: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &--medium-medium {
+        .c-work {
+            &__inner {
+                justify-content: space-between;
+            }
+
+            &__project {
+                &--first {
+                    width: percentage(11.375, 23);
+
+                    @include mq(sm) {
+                        width: 100%;
+                    }
+                }
+
+                &--second {
+                    width: percentage(11.375, 23);
+                    margin-top: 40%;
+
+                    @include mq(md) {
+                        margin-top: 15%;
+                    }
+
+                    @include mq(sm) {
+                        margin-top: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &--full {
+        .c-work {
+            &__inner {
+                padding-left: percentage(3, 24);
+                padding-right: percentage(3, 24);
+
+                @include mq(lg) {
+                    padding-right: percentage(1, 24);
+                }
+
+                @include mq(md) {
+                    padding-right: 10px;
+                    padding-left: 10px;
+                }
+            }
+
+            &__project {
+                width: 100%;
+            }
+        }
+    }
+}

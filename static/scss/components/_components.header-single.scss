@@ -1,0 +1,30 @@
+.c-header-single {
+    height: 100vh;
+    padding-left: percentage(0.75, 24);
+    padding-right: percentage(0.25, 24);
+    @include fluidValue("padding-bottom", null, 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @media not all and (hover:hover) {
+        //min-height: var(--app-height);
+        height: 100vh;
+        max-height: -webkit-fill-available;
+    }
+
+    @include mq(md) {
+        @include fluidValue("padding-left", "s-80");
+        padding-right: 20px;
+        padding-bottom: 80px;
+    }
+
+    &__heading {
+        width: percentage(16.2, 23);
+        padding-left: percentage(2.25, 23);
+
+        @include mq(md) {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.c-work-single {
+    @include fluidValue("padding-left", "s-16");
+    @include fluidValue("padding-right", "s-16");
+    @include fluidValue("padding-bottom", "s-16");
+
+    margin-left: 3.1vw;
+    width: 96.9vw;
+
+    @include mq(md) {
+        @include fluidValue("padding-left", "s-80");
+        margin-left: 0;
+        width: 100%;
+    }
+
+    @include mq(sm) {
+        padding-top: 0;
+    }
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include mq(md) {
+            // @include fluidValue("padding-left", "s-80");
+        }
+    }
+
+    &__project {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: percentage(11.375, 23);
+
+        @include mq(sm) {
+            width: 100%;
+        }
+    }
+
+    &__project-media {
+        width: 100%;
+    }
+
+    // modifiers
+
+    &--half {
+        .c-work-single {
+            &__inner {
+                justify-content: space-between;
+
+                @include mq(md) {
+                    padding-left: 10px;
+                }
+            }
+
+            &__project {
+                &--left {
+                    width: percentage(11.375, 23);
+
+                    @include mq(sm) {
+                        width: 100%;
+                        @include fluidValue("padding-bottom", "s-16");
+                    }
+                }
+
+                &--right {
+                    width: percentage(11.375, 23);
+
+                    @include mq(sm) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &--full-width {
+        .c-work-single {
+            &__inner {
+                @include mq(md) {
+                    padding-left: 10px;
+                }
+            }
+
+            &__project {
+                width: 100%;
+                @include fluidValue("padding-left", "s-80");
+
+                &--left {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html id="bornfight-studio" lang="en" class="" data-init-body-text-color="#000000" data-init-body-bg-color="#ffffff">
+<head>
+    @@include('head.html', {
+    "ogSiteName": "Bornfight Studio - Web Production & Digital Branding",
+    "ogURL": "https://bornfight.studio/",
+    "ogTitle": "Bornfight Studio | Rimac Automobili",
+    "ogShareImage": "../static/images/share.jpg",
+    "title": "Bornfight Studio | Rimac Automobili",
+    "description": "A close-packed team of Bornfight’s specialists focused on design and development.",
+    "author": "Bornfight Studio",
+    "style": "../static/dist/style.css",
+    "faviconPath": "../favicon",
+    })
+</head>
+
+<body>
+@@include('loader.html', {
+"staticPath": "../static",
+})
+
+<div id="js-scroll" data-scroll-container class="o-scroll o-page o-page--work">
+    @@include('work/header.html', { "workTitle": "Rimac Automobili" })
+
+    @@include('work/intro.html', { "introText": "Fast, beautiful & inspiring is the essence of Rimac. To project this, a weapon of choice was rich animations & intense visual dynamic.", "introServices": ["WEB DESIGN", "Development"] })
+
+    @@loop('work-single-section.html', "./rimac.json")
+
+    @@include('work/cta.html', {
+    "workUrl": "https://www.rimac-automobili.com/",
+    "nextWorkUrl": "/work/fitline",
+    "nextJpeg": "../static/images/work/fitline-desktop.jpeg",
+    "nextWebp": "../static/images/work/fitline-desktop.webp",
+    })
+
+    @@include('image-trail.html', {"isWorkSingle": "true", })
+
+    @@include('footer.html')
+</div>
+
+@@include('work/sticky-layout.html')
+@@include('cursor.html') @@include('marquee.html')
+
+<script type="text/javascript" defer src="../static/js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" defer src="../static/dist/vendor.js"></script>
+<script type="text/javascript" defer src="../static/dist/bundle.js"></script>
+<script type="text/javascript" defer src="../static/js/vendor/quicklink.js"></script>
+<script defer type="text/javascript">
+    let msg = "%cHello fellow INSPECTOR 👋! Welcome!";
+    let styles = [
+        "font-size: 16px",
+        "font-weight: bold",
+        "font-family: monospace",
+        "background: black",
+        "color: white",
+        "display: inline-block",
+        "padding: 10px 25px",
+        "border: 1px dashed white;",
+    ].join(";");
+    console.log(msg, styles);
+</script>
+</body>
+</html>

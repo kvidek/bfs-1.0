@@ -1,0 +1,74 @@
+[
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Acquis Consulting",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_1.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_1.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Acquis Consulting",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_2.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_2.jpg",
+        "workRightImageAlt": "Acquis Consulting",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_3.jpg",
+        "workRightImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_3.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Acquis Consulting",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_4.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_4.jpg",
+        "workRightImageAlt": "Acquis Consulting",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_5.jpg",
+        "workRightImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_5.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Acquis Consulting",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_6.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_6.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Acquis Consulting",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_7.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_7.jpg",
+        "workRightImageAlt": "Acquis Consulting",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_8.jpg",
+        "workRightImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_8.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Acquis Consulting",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_9.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_9.jpg",
+        "workRightImageAlt": "Acquis Consulting",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_10.jpg",
+        "workRightImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_10.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Acquis Consulting",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_11.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_11.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Acquis Consulting",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/acquis/acquis_case_desktop/acquis_consulting_desktop_12.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/acquis/acquis_case_mobile/acquis_consulting_mobile_12.jpg"
+    }
+]

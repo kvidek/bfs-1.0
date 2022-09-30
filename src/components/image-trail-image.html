@@ -1,0 +1,11 @@
+<picture class="c-image-trail__img js-image-trail-img">
+    @@if(context.isWorkSingle === "true"){
+    <source srcset="../static/images/image-trail/@@webpImg" type="image/webp" />
+    <source srcset="../static/images/image-trail/@@jpgImg" type="image/jpeg" />
+    <img src="../static/images/image-trail/@@jpgImg" alt="Studio culture image" />
+    } @@if(context.isWorkSingle !== "true"){
+    <source srcset="static/images/image-trail/@@webpImg" type="image/webp" />
+    <source srcset="static/images/image-trail/@@jpgImg" type="image/jpeg" />
+    <img src="static/images/image-trail/@@jpgImg" alt="Studio culture image" />
+    }
+</picture>

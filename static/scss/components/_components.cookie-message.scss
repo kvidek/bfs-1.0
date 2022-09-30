@@ -1,0 +1,49 @@
+.c-cookie {
+    @include fluidValue("padding-top", "s-16");
+    @include fluidValue("padding-bottom", "s-16");
+    @include fluidValue("padding-left", "s-24");
+    @include fluidValue("padding-right", "s-24");
+    @include fluidValue("top", null, 5px);
+    @include fluidValue("min-width", null, 320px);
+    position: fixed;
+    left: 3.1vw;
+    background-color: var(--body-text-color);
+    color: var(--body-bg-color);
+    z-index: 11;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+
+        @include mq(md) {
+            justify-content: space-between;
+        }
+    }
+
+    @include mq(md) {
+        width: calc(100vw - 56px);
+        max-width: 100%;
+        left: 56px;
+        top: auto;
+        bottom: 0;
+        min-width: auto;
+    }
+
+    p {
+        @include fluidValue("padding-right", "s-32");
+    }
+
+    button {
+        background-color: transparent;
+        outline: unset;
+        border: 0;
+        box-shadow: unset;
+        -webkit-appearance: none;
+        cursor: pointer;
+        color: var(--body-bg-color);
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,71 @@
+[
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Hotel Monopol",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_1.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_1.jpg",
+        "workRightImageAlt": "Hotel Monopol",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_2.jpg",
+        "workRightImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_2.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Hotel Monopol",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_3.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_3.jpg",
+        "workRightImageAlt": "Hotel Monopol",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_4.jpg",
+        "workRightImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_4.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Hotel Monopol",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_5.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_5.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Hotel Monopol",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_6.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_6.jpg",
+        "workRightImageAlt": "Hotel Monopol",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_7.jpg",
+        "workRightImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_7.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Hotel Monopol",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_8.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_8.jpg",
+        "workRightImageAlt": "Hotel Monopol",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_9.jpg",
+        "workRightImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_9.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Hotel Monopol",
+        "workLeftImageAr": "1-1",
+        "workLeftImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_10.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_10.jpg",
+        "workRightImageAlt": "Hotel Monopol",
+        "workRightImageAr": "1-1",
+        "workRightImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_11.jpg",
+        "workRightImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_11.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Hotel Monopol",
+        "workLeftImageAr": "3-2",
+        "workLeftImagejpegDesktop": "../static/images/work/monopol/hotel_monopol_desktop/hotel_monopol_desktop_12.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/monopol/hotel_monopol_mobile/hotel_monopol_mobile_12.jpg"
+    }
+]

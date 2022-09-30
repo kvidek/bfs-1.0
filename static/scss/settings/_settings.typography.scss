@@ -1,0 +1,44 @@
+/**
+ * Roboto
+ */
+@include font-face("Plain-Light", "Plain-Light");
+
+/**
+ * Font variables
+ */
+$plain-light: "Plain-Light", sans-serif;
+$font-primary: $plain-light;
+
+/**
+ * Font size map
+ */
+$settings-typography: (
+    "a4": (
+        $breakpoint-sm: 152px,
+        $breakpoint-xl: 270px,
+    ),
+    "a3": (
+        $breakpoint-sm: 34px,
+        $breakpoint-xl: 99px,
+    ),
+    "a2": (
+        $breakpoint-sm: 56px,
+        $breakpoint-xl: 31px,
+    ),
+    "a1": (
+        $breakpoint-sm: 18px,
+        $breakpoint-xl: 22px,
+    ),
+    "b0": (
+        $breakpoint-sm: 16px,
+        $breakpoint-xl: 16px,
+    ),
+    "b1": (
+        $breakpoint-sm: 13px,
+        $breakpoint-xl: 13px,
+    ),
+    "b2": (
+        $breakpoint-sm: 11px,
+        $breakpoint-xl: 11px,
+    ),
+);

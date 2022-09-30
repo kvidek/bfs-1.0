@@ -1,0 +1,34 @@
+.c-credits {
+    padding-left: percentage(0.75, 24);
+    padding-right: percentage(0.25, 24);
+
+    &__title {
+        width: percentage(16.5, 24);
+        margin-left: auto;
+        margin-right: 0;
+
+        > span {
+            position: relative;
+        }
+
+        &-top {
+            display: block;
+            text-align: right;
+            width: percentage(12, 16.5);
+        }
+
+        &-separator {
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        &-bottom {
+            display: block;
+            text-align: right;
+            width: percentage(9.5, 16.5);
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+}

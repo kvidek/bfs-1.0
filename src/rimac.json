@@ -1,0 +1,88 @@
+[
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_1.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_1.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_2.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_2.jpg",
+        "workRightImageAlt": "Rimac Automobili",
+        "workRightImageAr": "16-9",
+        "workRightImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_3.jpg",
+        "workRightImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_3.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_4.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_4.jpg",
+        "workRightImageAlt": "Rimac Automobili",
+        "workRightImageAr": "16-9",
+        "workRightImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_5.jpg",
+        "workRightImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_5.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_6.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_6.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_7.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_7.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_8.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_8.jpg",
+        "workRightImageAlt": "Rimac Automobili",
+        "workRightImageAr": "16-9",
+        "workRightImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_9.jpg",
+        "workRightImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_9.jpg"
+    },
+    {
+        "layout": "half",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_10.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_10.jpg",
+        "workRightImageAlt": "Rimac Automobili",
+        "workRightImageAr": "16-9",
+        "workRightImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_11.jpg",
+        "workRightImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_11.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_12.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_12.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_13.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_13.jpg"
+    },
+    {
+        "layout": "full-width",
+        "workLeftImageAlt": "Rimac Automobili",
+        "workLeftImageAr": "16-9",
+        "workLeftImagejpegDesktop": "../static/images/work/rimac/rimac_automobili_desktop/rimac_automobili_desktop_14.jpg",
+        "workLeftImagejpegMobile": "../static/images/work/rimac/rimac_automobili_mobile/rimac_automobili_mobile_14.jpg"
+    }
+]
